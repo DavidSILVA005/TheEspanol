@@ -1,0 +1,651 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500;1,700&display=swap');
+/*Font family lora serif */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/*CUERPO*/
+
+/*COLOR DE FONDO-COLOR DE FONDO-COLOR DE FONDO-COLOR DE FONDO */
+/*COLOR DE FONDO-COLOR DE FONDO-COLOR DE FONDO-COLOR DE FONDO */
+/*COLOR DE FONDO-COLOR DE FONDO-COLOR DE FONDO-COLOR DE FONDO */
+
+body{
+    background-color: ;
+}
+
+
+/*MENU DE NAVEGACION */
+/*MENU DE NAVEGACION */
+/*MENU DE NAVEGACION */
+/*MENU DE NAVEGACION */
+.todoEncabezado {
+
+}
+
+
+.secuenciaPrincipal {
+    background-color:black ;
+    padding: 100px 100px 10px  100px;
+    
+}
+
+
+
+/*listas de items*/
+
+
+ul li a{
+text-decoration:;
+color:red;
+font-family: 'Lora', serif;
+text-shadow: 3px 3px 10px rgba(0, 0, 0, 8.0);
+}
+
+.navbar {
+font-family: 'Lora', serif;
+font-weight: 100;
+}
+
+.nav-link {
+    color: red
+}
+
+
+
+
+/*texto NO OLVIDAR QUE ES DE LA SLIDE*/
+.TextoSlide {
+    color: antiquewhite;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 8.0);
+}
+
+.buttonColor {
+    color: white;
+}
+
+/*listas de items*/
+
+
+.cuadroComparte {
+    padding:1rem;
+    background-color: black;
+
+}
+
+.primerParrafo {
+    background-color:rgba(255, 0, 0, 0.651);
+    margin: ;
+    font-family: 'Lora', serif;
+    font:  ;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 50px;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 9.0);
+    border-radius: 10px;
+
+
+}
+/*SECCION NUESTRAS RECOMENDADAS */
+/*SECCION NUESTRAS RECOMENDADAS */
+/*SECCION NUESTRAS RECOMENDADAS */
+/*SECCION NUESTRAS RECOMENDADAS */
+/*SECCION NUESTRAS RECOMENDADAS */
+
+.imagenPuntoP {
+    background-color: black;
+    width: 70%;
+    margin: ;
+    opacity:;
+    color: transparent;
+    opacity: 0.5;
+}
+/*COMBOS IMAGENES*/
+/*COMBOS IMAGENES*/
+/*COMBOS IMAGENES*/
+/*COMBOS IMAGENES*/
+/*COMBOS IMAGENES*/
+/*COMBOS IMAGENES*/
+
+
+/**/
+
+.todoRecomendadas {
+    padding: 1rem;
+    background-color: :
+}
+
+.nuestrasRecomendadasFondo {
+    margin: ;
+    background-color: #19191a;
+    padding: 0.5rem;
+    font-family: 'Lora', serif;
+    color: rgb(255, 255, 255);
+    text-align: center ;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 8.0);
+    font-weight:bold;
+    border-radius: 10px;
+
+}
+.tituloNuestras {
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+/*COMBOS TEXTOS*/
+/*COMBOS TEXTOS*/
+/*COMBOS TEXTOS*/
+/*COMBOS TEXTOS*/
+/*COMBOS TEXTOS*/
+/*COMBOS TEXTOS*/
+
+
+
+.losCombos {
+    display: flex;
+    padding: 40px 0px 10px 0px;
+    gap: 20px; 
+    align-items:;
+    background-color: ;
+
+}
+.infoCombos {
+    padding-left: 15px;
+}
+
+
+.imagenCombo{
+    width: 300px;
+}
+
+
+
+.textoComboUno  {
+    font-family: 'Lora', serif;
+    color: red;
+    text-align: center;
+
+}
+
+
+.comboUnoCombinado {
+   background-color: black;
+   overflow: hidden;
+   border-radius: 30px;
+}
+
+
+
+.textoComboDos  {
+    font-family: 'Lora', serif;
+    font-size: ;
+    color: red;
+    text-align: center;
+}
+
+
+.comboDosCombinado {
+    background-color: black;
+    overflow: hidden;
+    border-radius: 30px;
+
+}
+.textoComboTres  {
+    font-family: 'Lora', serif;
+    font-size: ;
+    color: red;
+    text-align: center;
+
+}
+.comboTresCombinado {
+    background-color: black;
+    overflow: hidden;
+    border-radius: 30px;
+
+}
+.textoComboCuatro  {
+    font-family: 'Lora', serif;
+    font-size: ;
+    color: red;
+    text-align: center;
+
+}
+.comboCuatroCombinado {
+    background-color: black;
+    overflow: hidden;
+    border-radius: 30px;
+
+}
+.textoComboCinco  {
+    font-family: 'Lora', serif;
+    font-size: ;
+    color: red;
+    text-align: center;
+
+}
+
+.comboCincoCombinado {
+
+    background-color: black;
+    overflow: hidden;
+    border-radius: 30px;
+
+}
+
+
+
+.segundoParrafo {
+    background-color: #C0C0C0;
+    margin: ;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: ;
+    color: black;
+    text-align: center;
+}
+
+
+
+
+
+.videoYoutube {
+   
+    background-color: black;
+    padding: 30px 0px 40px 10px;
+    margin: 100px 0px 100px 0px;
+    display: flex;
+    justify-content: center;
+
+    border-radius:20px;
+    flex-direction: ;
+}
+
+.textoVideo {
+    font-family: 'Lora', serif;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+/*....UBICACION....*/
+/*....UBICACION....*/
+/*....UBICACION....*/
+/*....UBICACION....*/
+/*....UBICACION....*/
+/*....UBICACION....*/
+
+.cajaPfisico {
+    background-color: black;
+    display: flex;
+    padding: 40px 150px 40px 150px;
+    gap: 60px; 
+    border-radius: 1rem;
+}
+
+
+.ubicacionPuntoP {
+    width: 470px;
+}
+
+
+
+
+
+
+
+
+/*----------------------------------------------CONTACTANOS---------------------------------*/
+.parrafoContactanos {
+    background-color: ;
+    margin: ;
+    font-family: 'Lora', serif;
+    font-size: ;
+    font-weight: ;
+    color: black;
+}
+/*----------------------------------------------QUIENES SOMOS ---------------------------------*/
+
+.cajaQuienesSomos {
+    padding: 100px 0px 0px 0px;
+
+}
+
+
+
+
+.parrafoQuienesSomos {
+    background-color: ;
+    margin: ;
+    font-family: 'Lora', serif;
+    font-size: ;
+    font-weight: ;
+    color: black;
+}
+
+
+/* --------------------      */
+.administradores {
+ border-radius: 25px;
+ overflow: hidden;
+}
+
+
+.textoAdmi    {
+    width: 450px;
+
+}
+
+.cajasTextoquienes {
+    
+    background-color: black;
+    font-family: 'Lora', serif;
+    font-size: ;
+    font-weight: ;
+    color: white;
+    width: 450px;
+    text-align: center;
+    padding: 1px;
+
+}
+
+.cajaCompletaAdmi{
+display: flex;
+padding: 10px 151px 20px  151px;
+gap: 105px;
+}
+
+
+
+/*----------------------------------------------NUESTRAS CREACIONES ---------------------------------*/
+/*----------------------------------------------NUESTRAS CREACIONES-------------------------*/
+/*PARRAFOS*/
+/*PARRAFOS*/
+/*PARRAFOS*/
+.hamburguesasTitulo{
+    font-family: 'Lora', serif;
+    font-size: ;
+    color: white;
+    background-color: #522B47;
+    text-align: center;
+}
+.hotDogTitulo {
+    font-family: 'Lora', serif;
+    font-size: ;
+    color:white;
+    background-color: #522B47;
+    text-align: center;
+}
+.salchipapasTitulo {
+    font-family: 'Lora', serif;
+    font-size: ;
+    color: white;
+    background-color: #522B47;
+    text-align: center;
+}
+.parrafoCreaciones {
+    font-family: 'Lora', serif;
+    font-size: ;
+    color: black;
+}
+/*Hamburguesas*/
+/*Hamburguesas*/
+.españolaClasica {
+    width: 60px;
+}
+.españolaClasicaTexto{
+    font-family: 'Lora', serif;
+    font-size: ;
+    color: black;
+    
+}
+/*......................................*/
+.españolaCriolla{
+    width: 60px;
+}
+.españolaCriollaTexto{
+    font-family: 'Lora', serif;
+    font-size: ;
+    color: black;
+
+}
+/*......................................*/
+.españolaConChorizo{
+    width: 60px;
+}
+.españolaConChorizoTexto{
+    font-family: 'Lora', serif;
+    font-size: ;
+    color: black;
+
+}
+/*......................................*/
+.españolaConTocineta{
+    width: 60px;
+}
+.españolaConTocinetaTexto{
+    font-family: 'Lora', serif;
+    font-size: ;
+    color: black;
+
+}
+/*......................................*/
+.españolaDePollo{
+    width: 60px;
+}
+.españolaDePolloTexto{
+    font-family: 'Lora', serif;
+    font-size: ;
+    color: black;
+
+}
+/*......................................*/
+.españolaDoble{
+    width: 60px;
+}
+.españolaDobleTexto{
+    font-family: 'Lora', serif;
+    font-size: ;
+    color: black;
+}
+/*......................................*/
+.españolaBrava{
+    width: 60px;
+}
+.españolaBravaTexto {
+    font-family: 'Lora', serif;
+    font-size: ;
+    color: black;
+}
+/*......................................*/
+/*Hot Dogs*/
+.españolSencilloI {
+width: 150px;
+}
+.hotSencilloText {
+    font-family: 'Lora', serif;
+    font-size: ;
+    color: black;
+}
+/*......................................*/
+.españolCriolloI {
+width: 150px;
+}
+.hotCriolloText {
+    font-family: 'Lora', serif;
+    font-size: ;
+    color: black;
+}
+/*......................................*/
+.españolEspecialI {
+ width: 150px;
+}
+.hotEspecialText {
+    font-family: 'Lora', serif;
+    font-size: ;
+    color: black;
+}
+/*......................................*/
+
+/*SALCHIPAPAS*/
+.sencilla{
+width: 150px;
+}
+
+.sencillaTexto{
+font-family: 'Lora', serif;
+font-size: ;
+color: black;
+}
+/*......................................*/
+.especial{
+width: 150px;
+}
+.especialTexto {
+   font-family: 'Lora', serif;
+   font-size: ;
+   color: black; 
+}
+/*......................................*/
+.duo {
+width: 150px;
+}
+
+.duoTexto {
+   font-family: 'Lora', serif;
+   font-size: ;
+   color: black; 
+}
+
+
+
+
+/*----------------------------------------------NUESTRAS CREACIONES-------------------------*/
+
+/*----------------------------------------------COMICILIOS-------------------------*/
+/*----------------------------------------------COMICILIOS-------------------------*/
+/*----------------------------------------------COMICILIOS-------------------------*/
+/*----------------------------------------------COMICILIOS-------------------------*/
+
+.parrafoDomicilios {
+    background-color: ;
+    margin: ;
+    font-family: 'Lora', serif;
+    font-size: ;
+    font-weight: ;
+    color: black;
+}
+
+/*----------------------------------------------RESERVACIONES-------------------------*/
+/*----------------------------------------------RESERVACIONES-------------------------*/
+/*----------------------------------------------RESERVACIONES-------------------------*/
+/*----------------------------------------------RESERVACIONES-------------------------*/
+.parrafoReservaciones {
+
+    background-color: ;
+    margin: ;
+    font-family: 'Lora', serif;
+    font-size: ;
+    font-weight: ;
+    color: black;
+}
+
+.reservar {
+    background-color: ;
+    margin: ;
+    font-family: 'Lora', serif;
+    font-size: ;
+    font-weight: ;
+    color: black;
+}
+
+.borrar {
+    background-color: ;
+    margin: ;
+    font-family: 'Lora', serif;
+    font-size: ;
+    font-weight: ;
+    color: black;
+}
+
+.nohagoNada {
+    background-color: ;
+    margin: ;
+    font-family: 'Lora', serif;
+    font-size: ;
+    font-weight: ;
+    color: black;
+}
+
+
+
+/* TODO LO QUE TIENE QUE VER CON EL PIE DE PÁGINA*/
+/* TODO LO QUE TIENE QUE VER CON EL PIE DE PÁGINA*/
+/* TODO LO QUE TIENE QUE VER CON EL PIE DE PÁGINA*/
+/* TODO LO QUE TIENE QUE VER CON EL PIE DE PÁGINA*/
+
+.cajaTpiePagina{
+    padding: 50px 0px 0px 0px;
+}
+
+.tituloPiedePagina {
+    background-color: black;
+    font-family: 'Lora', serif;
+    color: whitesmoke;
+    font-size: ;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 8.0);
+    padding: ;
+
+}
+
+.piedePaginaCompleto {
+    background-color: white;
+    display: flex;
+    padding: 0px 150px 0px 150px;
+    gap: 240px;
+}
+.instagramLogo {
+    width: 53px;
+    text-decoration: none;
+}
+
+.facebookLogo {
+    width: 50px;
+}
+
+.tiktokLogo{
+    width: 50px;
+}
+
+.whatsappLogo{
+    width: 50px;
+}
+
+
+.tercerParrafo {
+    background-color: #C0C0C0 ;
+    margin: ;
+    font-family: 'Lora', serif;
+    padding:;
+    font-size: ;
+    font-weight: 600 ;
+    color: black;
+    text-align: center;
+}
