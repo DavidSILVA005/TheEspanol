@@ -730,8 +730,6 @@ img {
 
 
 @media screen and (max-width: 780x) {
-
-    
 }
 
 @media screen and (max-width: 480px) {
@@ -769,8 +767,8 @@ img {
         border-radius: 10px;
     }
     .mapaBox {
-        width: 400px;
+        width: 300px;
         padding: 20px 50px 0px 10px;
     }
-   }
+}
     
