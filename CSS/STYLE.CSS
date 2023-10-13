@@ -734,7 +734,7 @@ img {
     
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 480px) {
     .losCombos {
         display: block;
     }
@@ -749,9 +749,6 @@ img {
     .mobileCombos {
         padding: 10px 5px 20px 5px;
     }
-    
-    
-    
     
     .cajaVideoY {
         width: 400px;
@@ -771,18 +768,9 @@ img {
         width: 400px;
         border-radius: 10px;
     }
-
-
-
     .mapaBox {
         width: 400px;
         padding-top: 25px;
-
-
-
-
-
-
-
     }
+   }
     
