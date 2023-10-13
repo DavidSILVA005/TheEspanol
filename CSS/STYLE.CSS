@@ -732,7 +732,7 @@ img {
 @media screen and (max-width: 780x) {
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 490px) {
     .losCombos {
         display: block;
     }
