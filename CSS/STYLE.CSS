@@ -249,6 +249,8 @@ font-weight: 100;
 
 
 
+
+
 .segundoParrafo {
     background-color: #C0C0C0;
     margin: ;
@@ -262,25 +264,25 @@ font-weight: 100;
 
 
 
+.videoR {
+    padding: 50px 400px 50px 400px;
+    display: flex;
+}
 
-.videoYoutube {
-   
+.videoBox {
+    border-radius: 10px;
+
+}
+.cajaVideoY {
+    width: 500px;
     background-color: black;
-    padding: 30px 0px 40px 10px;
-    margin: 100px 0px 100px 0px;
+    padding: 30px;
     display: flex;
     justify-content: center;
-
-    border-radius:20px;
-    flex-direction: ;
+    border-radius:10px;
 }
 
-.textoVideo {
-    font-family: 'Lora', serif;
-    color: black;
-    text-align: center;
-    padding: 10px;
-}
+
 
 
 
@@ -556,6 +558,9 @@ width: 150px;
 /*----------------------------------------------RESERVACIONES-------------------------*/
 /*----------------------------------------------RESERVACIONES-------------------------*/
 /*----------------------------------------------RESERVACIONES-------------------------*/
+
+
+
 .parrafoReservaciones {
 
     background-color: ;
@@ -564,6 +569,77 @@ width: 150px;
     font-size: ;
     font-weight: ;
     color: black;
+    display: flex;
+    padding: 80px 0px 0px 0px;
+}
+
+
+
+
+/*Gridllas de galeria de imagenes*/
+
+
+.galeriaImagenes {
+    display: grid;
+    width: 800px;
+    height: 500px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-areas: 
+        "caja1 caja1  caja2 caja2"
+        "caja3 caja4  caja4 caja5"
+        "caja3 caja6  caja6 caja5";
+    gap: 5px;
+    padding: ;
+}
+
+
+.caja {
+    border: 3px solid black;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.caja1{
+    grid-area: caja1;
+    width: 100%;
+    text-align: center;
+}
+.caja2{
+    grid-area: caja2
+
+}
+.caja3{
+    grid-area: caja3
+
+}
+.caja4{
+    grid-area: caja4
+
+}
+.caja5{
+    grid-area: caja5
+
+}
+.caja6{
+    grid-area: caja6
+    
+}
+
+.cajaGaleria {
+    display: flex;
+    padding: 0px  340px 20px  340px;
+    gap: 10px;
+  
+}
+
+
+.formulario {
+    padding: 0px 0px 0px  0px;
+
 }
 
 .reservar {
@@ -649,3 +725,64 @@ width: 150px;
     color: black;
     text-align: center;
 }
+
+
+
+
+@media screen and (max-width: 780x) {
+
+    
+}
+
+@media screen and (max-width: 480px) {
+    .losCombos {
+        display: block;
+    }
+    
+    .imagenCombo {
+        width: 100%;
+    }
+    .comboUnoCombinado {
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .mobileCombos {
+        padding: 10px 5px 20px 5px;
+    }
+    
+    
+    
+    
+    .cajaVideoY {
+        width: 400px;
+    }
+    .videoR {
+        padding: 40px 10px 10px 20px;
+    }
+    .videoBox {
+        width: 200;
+    }
+
+    .cajaPfisico {
+        display: block;
+        padding: 25px ;
+    }
+    .ubicacionPuntoP {
+        width: 400px;
+        border-radius: 10px;
+    }
+
+
+
+    .mapaBox {
+        width: 400px;
+        padding-top: 25px;
+
+
+
+
+
+
+
+    }
+    
