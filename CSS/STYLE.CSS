@@ -749,10 +749,10 @@ img {
     }
     
     .cajaVideoY {
-        width: 300px;
+        width: 400px;
     }
     .videoR {
-        padding: 40px 5px 10px 5px;
+        padding: 30px 10px 10px  30px;
     }
     .videoBox {
         width: 200;
@@ -767,8 +767,8 @@ img {
         border-radius: 10px;
     }
     .mapaBox {
-        width: 300px;
-        padding: 20px 50px 0px 10px;
+        width: 400px;
+        padding-top: 25px;
     }
 }
     
