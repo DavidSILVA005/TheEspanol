@@ -754,7 +754,7 @@ img {
         width: 400px;
     }
     .videoR {
-        padding: 40px 10px 10px 20px;
+        padding: 40px 5px 10px 5px;
     }
     .videoBox {
         width: 200;
@@ -770,7 +770,7 @@ img {
     }
     .mapaBox {
         width: 400px;
-        padding-top: 25px;
+        padding: 20px 50px 0px 10px;
     }
    }
     
