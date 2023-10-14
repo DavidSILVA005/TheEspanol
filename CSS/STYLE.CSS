@@ -369,7 +369,7 @@ font-weight: 100;
 
 .cajaCompletaAdmi{
 display: flex;
-padding: 10px 151px 20px  151px;
+padding: 20px 450px 20px  450px;
 gap: 105px;
 }
 
@@ -714,7 +714,6 @@ img {
     width: 50px;
 }
 
-
 .tercerParrafo {
     background-color: #C0C0C0 ;
     margin: ;
@@ -729,6 +728,8 @@ img {
 
 
 
+
+
 @media screen and (max-width: 780x) {
 }
 
@@ -737,6 +738,7 @@ img {
         display: block;
     }
     
+
     .imagenCombo {
         width: 100%;
     }
@@ -770,5 +772,40 @@ img {
         width: 400px;
         padding-top: 25px;
     }
-}
+
+    .administradores{
+
+        overflow: hidden;
+        border-radius: 20px;
+        width: 300px;
+
+    }
+
+
+    .cajaCompletaAdmi {
+    display: block;
+    padding: 0px 0px 0px 0px;
+    border-radius: ;
+    }
+
+    .textoAdmi {
+        width: 300px;
+    }
+
+    .cajasTextoquienes {
+        width: 300px;
+        border-radius: ;
+    }
+
+    .cajasMedia {
+        padding: 20px 40px 20px 100px;
+        align-content: center;
+    }
+
+
+    }
+
+
+
+
     
