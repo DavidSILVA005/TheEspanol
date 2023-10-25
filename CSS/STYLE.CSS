@@ -369,7 +369,7 @@ font-weight: 100;
 
 .cajaCompletaAdmi{
 display: flex;
-padding: 20px 450px 20px  450px;
+padding: 20px 500px 20px  250px;
 gap: 105px;
 }
 
@@ -380,19 +380,42 @@ gap: 105px;
 /*PARRAFOS*/
 /*PARRAFOS*/
 /*PARRAFOS*/
+
+.cajaTituloHamburguesas {
+    padding: 90px 120px 10px 120px;
+}
+
+
+
+.cajaTituloSalchi {
+    padding: 200px 120px 10px 120px;
+
+}
+
+.cajaTituloHot {
+    padding: 200px 120px 10px 120px;
+
+}
+
+
 .hamburguesasTitulo{
     font-family: 'Lora', serif;
     font-size: ;
     color: white;
     background-color: #522B47;
     text-align: center;
+    padding: 8px 8px 8px 8px;
+    border-radius: 15px;
 }
+
 .hotDogTitulo {
     font-family: 'Lora', serif;
     font-size: ;
     color:white;
     background-color: #522B47;
     text-align: center;
+    padding: 8px 8px 8px 8px;
+    border-radius: 15px;
 }
 .salchipapasTitulo {
     font-family: 'Lora', serif;
@@ -400,6 +423,8 @@ gap: 105px;
     color: white;
     background-color: #522B47;
     text-align: center;
+    padding: 8px 8px 8px 8px;
+    border-radius: 15px;
 }
 .parrafoCreaciones {
     font-family: 'Lora', serif;
@@ -408,135 +433,112 @@ gap: 105px;
 }
 /*Hamburguesas*/
 /*Hamburguesas*/
-.españolaClasica {
-    width: 60px;
+/*Hamburguesas*/
+/*Hamburguesas*/
+/*Hamburguesas*/
+/*Hamburguesas*/
+/*Hamburguesas*/
+/*Hamburguesas*/
+/*Hamburguesas*/
+/*Hamburguesas*/
+/*Hamburguesas*/
+/*Hamburguesas*/
+
+.cajaCompletaCreaciones {
+    display: flex;
+    padding: 40px 300px 20px 275px;
+    gap: 70px;
 }
-.españolaClasicaTexto{
+.hamburguesaTexto {
+    background-color: black;
     font-family: 'Lora', serif;
     font-size: ;
-    color: black;
-    
+    font-weight: ;
+    color: red;
+    width: 450px;
+    text-align: center;
+    padding: 1px;
 }
-/*......................................*/
-.españolaCriolla{
-    width: 60px;
-}
-.españolaCriollaTexto{
-    font-family: 'Lora', serif;
-    font-size: ;
-    color: black;
+
+.creacionesUnicaH {
+    padding: 40px 250px 20px 250px;
 
 }
-/*......................................*/
-.españolaConChorizo{
-    width: 60px;
-}
-.españolaConChorizoTexto{
-    font-family: 'Lora', serif;
-    font-size: ;
-    color: black;
 
-}
-/*......................................*/
-.españolaConTocineta{
-    width: 60px;
-}
-.españolaConTocinetaTexto{
-    font-family: 'Lora', serif;
-    font-size: ;
-    color: black;
+ .españolaHamburguesa {
+    width: 450px;
+ }
 
-}
-/*......................................*/
-.españolaDePollo{
-    width: 60px;
-}
-.españolaDePolloTexto{
-    font-family: 'Lora', serif;
-    font-size: ;
-    color: black;
+ .tarjetaHamburguesa {
+    border-radius: 25px;
+    overflow: hidden;
+ }
 
-}
-/*......................................*/
-.españolaDoble{
-    width: 60px;
-}
-.españolaDobleTexto{
-    font-family: 'Lora', serif;
-    font-size: ;
-    color: black;
-}
-/*......................................*/
-.españolaBrava{
-    width: 60px;
-}
-.españolaBravaTexto {
-    font-family: 'Lora', serif;
-    font-size: ;
-    color: black;
-}
 /*......................................*/
 /*Hot Dogs*/
-.españolSencilloI {
-width: 150px;
+.cajaCompletaHot{
+    display: flex;
+    padding: 40px 250px 30px 260px;
+    gap: 50px;
 }
-.hotSencilloText {
+
+.españolaPerro {
+    width: 300px;
+}
+
+.hotText {
+    background-color: black;
     font-family: 'Lora', serif;
     font-size: ;
-    color: black;
+    font-weight: ;
+    color: red;
+    width: 300px;
+    text-align: center;
+    padding: 1px;
 }
-/*......................................*/
-.españolCriolloI {
-width: 150px;
+
+.tarjetaPerro {
+    border-radius: 25px;
+    overflow: hidden;
+
 }
-.hotCriolloText {
-    font-family: 'Lora', serif;
-    font-size: ;
-    color: black;
-}
-/*......................................*/
-.españolEspecialI {
- width: 150px;
-}
-.hotEspecialText {
-    font-family: 'Lora', serif;
-    font-size: ;
-    color: black;
-}
+
+
 /*......................................*/
 
 /*SALCHIPAPAS*/
-.sencilla{
-width: 150px;
-}
+/*SALCHIPAPAS*/
+/*SALCHIPAPAS*/
+/*SALCHIPAPAS*/
+/*SALCHIPAPAS*/
 
-.sencillaTexto{
-font-family: 'Lora', serif;
-font-size: ;
-color: black;
-}
-/*......................................*/
-.especial{
-width: 150px;
-}
-.especialTexto {
-   font-family: 'Lora', serif;
-   font-size: ;
-   color: black; 
-}
-/*......................................*/
-.duo {
-width: 150px;
-}
 
-.duoTexto {
-   font-family: 'Lora', serif;
-   font-size: ;
-   color: black; 
+.CajaCompletaSalchi {
+    display: flex;
+    padding: 40px 250px 30px 260px;
+    gap: 50px;
 }
 
 
+.salchiTexto {
+    background-color: black;
+    font-family: 'Lora', serif;
+    font-size: ;
+    font-weight: ;
+    color: red;
+    width: 300px;
+    text-align: center;
+    padding: 1px;
+}
 
+.tarjetaSalchi {
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.espaSalchi {
+    width: 300px;
+}
 
 /*----------------------------------------------NUESTRAS CREACIONES-------------------------*/
 
