@@ -170,7 +170,7 @@ font-weight: 100;
 
 
 .imagenCombo{
-    width: 300px;
+    width: 700px;
 }
 
 
@@ -179,6 +179,7 @@ font-weight: 100;
     font-family: 'Lora', serif;
     color: red;
     text-align: center;
+
 
 }
 
@@ -203,6 +204,7 @@ font-weight: 100;
     background-color: black;
     overflow: hidden;
     border-radius: 30px;
+    
 
 }
 .textoComboTres  {
@@ -216,6 +218,7 @@ font-weight: 100;
     background-color: black;
     overflow: hidden;
     border-radius: 30px;
+    
 
 }
 .textoComboCuatro  {
@@ -229,7 +232,6 @@ font-weight: 100;
     background-color: black;
     overflow: hidden;
     border-radius: 30px;
-
 }
 .textoComboCinco  {
     font-family: 'Lora', serif;
