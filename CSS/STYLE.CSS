@@ -738,6 +738,17 @@ img {
 }
 
 @media screen and (max-width: 490px) {
+   
+
+    .tituloNuestras {
+        font-size: 30px;
+    }
+   
+   
+   
+   
+   
+   
     .losCombos {
         display: block;
     }
@@ -806,6 +817,36 @@ img {
         align-content: center;
     }
 
+
+
+
+
+
+
+    .piedePaginaCompleto {
+        background-color: white;
+        display: flex;
+        padding: 0px 150px 10px 150px;
+        gap: 30px;
+    }
+
+
+    .instagramLogo {
+        width: 30px;
+        text-decoration: none;
+    }
+    
+    .facebookLogo {
+        width: 30px;
+    }
+    
+    .tiktokLogo{
+        width: 30px;
+    }
+    
+    .whatsappLogo{
+        width: 30px;
+    }
 
     }
 
