@@ -829,8 +829,8 @@ img {
     .piedePaginaCompleto {
         background-color: white;
         display: flex;
-        padding: 0px 150px 10px 150px;
-        gap: 30px;
+        padding: 0px 110px 10px 110px;
+        gap: 20px;
     }
 
 
@@ -851,6 +851,10 @@ img {
         width: 30px;
     }
 
+    .iframe {
+        width: 350px;
+        height: 350px;
+    }
     }
 
 
