@@ -18,7 +18,7 @@
 /*COLOR DE FONDO-COLOR DE FONDO-COLOR DE FONDO-COLOR DE FONDO */
 
 body{
-    background-color: ;
+    background-color: e6ebe0;
 }
 
 
@@ -85,10 +85,10 @@ font-weight: 100;
     margin: ;
     font-family: 'Lora', serif;
     font:  ;
-    font-weight: 400;
+    font-weight: 800;
     color: white;
     text-align: center;
-    font-size: 25px;
+    font-size: 23px;
     padding: 50px;
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 9.0);
     border-radius: 10px;
@@ -170,7 +170,7 @@ font-weight: 100;
 
 
 .imagenCombo{
-    width: 700px;
+    width: 350px;
 }
 
 
