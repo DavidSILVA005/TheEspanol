@@ -273,10 +273,11 @@ font-weight: 100;
 
 .videoBox {
     border-radius: 10px;
+    width: 350px;
 
 }
 .cajaVideoY {
-    width: 500px;
+    width: 350px;
     background-color: black;
     padding: 30px;
     display: flex;
@@ -739,7 +740,9 @@ img {
 
 @media screen and (max-width: 500px) {
    
-
+    .body {
+        background-color: ;
+    }
     .tituloNuestras {
         font-size: 30px;
     }
