@@ -773,6 +773,7 @@ img {
     }
     .videoR {
         padding: 0px 10px 10px 0px;
+        align-content: center;
     }
     .videoBox {
         width: 200;
