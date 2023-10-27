@@ -739,9 +739,8 @@ img {
 }
 
 @media screen and (max-width: 500px) {
-   
     .body {
-        background-color: ;
+        background-color: burlywoods;
     }
     .tituloNuestras {
         font-size: 20px;
@@ -760,9 +759,7 @@ img {
     .imagenCombo {
         width: 100%;
     }
-    .comboUnoCombinado {
-        padding: 0px 0px 0px 0px;
-    }
+
     
     .mobileCombos {
         padding: 10px 5px 20px 5px;
@@ -776,6 +773,7 @@ img {
         padding: 0px 10px 10px 0px;
         align-content: center;
     }
+
     .videoBox {
         width: 200;
     }
@@ -784,10 +782,12 @@ img {
         display: block;
         padding: 25px ;
     }
+
     .ubicacionPuntoP {
         width: 400px;
         border-radius: 10px;
     }
+
     .mapaBox {
         width: 350px;
         padding-top: 25px;
@@ -798,7 +798,6 @@ img {
         overflow: hidden;
         border-radius: 20px;
         width: 300px;
-
     }
 
 
@@ -822,6 +821,64 @@ img {
         align-content: center;
     }
 
+
+
+
+
+
+    
+
+
+    .cajaCompletaCreaciones {
+        display: block;
+    }
+
+    creacionesMedia {
+    display: block;
+    padding: 0x 0px 0px 0px;
+    align-content: center;
+    }
+
+
+    .españolHamburguesa {
+        width: 300px;
+    }
+
+    .hamburguesaTexto {
+        width: 300px;
+    }
+
+
+    .tarjetaHamburguesa {
+        width: 300px;
+
+
+
+
+
+
+
+    .cajaCompletaHot {
+        display: block;
+    }
+    .creacionesHot {
+     display: block;
+     padding: 0px 0px 0px 0px;
+     align-content: center;
+    }
+
+    .españolaPerro {
+        width: 300px;
+    }
+
+
+    .hotText {
+        width: 300px;
+    }
+    
+    .tarjetaPerro{
+        width: 300px;
+    }
 
 
 
@@ -853,13 +910,17 @@ img {
         width: 30px;
     }
 
+    .tercerParrafo {
+        background-color: #C0C0C0 ;
+        font-size: 15px;
+        font-weight: 600 ;
+        color: black;
+        text-align: center;
+    }
+
+
     .iframe {
         width: 300px;
         height: 300px;
     }
-    }
-
-
-
-
-    
+}
