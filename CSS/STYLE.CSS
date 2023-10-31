@@ -735,22 +735,18 @@ img {
 
 
 
-@media screen and (max-width: 780x) {
-}
 
 @media screen and (max-width: 500px) {
+
+
     .body {
-        background-color: burlywoods;
+        background-color: burlywood;
     }
+
     .tituloNuestras {
         font-size: 20px;
     }
-   
-   
-   
-   
-   
-   
+    
     .losCombos {
         display: block;
     }
@@ -831,12 +827,19 @@ img {
 
     .cajaCompletaCreaciones {
         display: block;
+        padding: 0px 0px 0px 0px;
     }
+
+
+
 
     creacionesMedia {
     display: block;
     padding: 0x 0px 0px 0px;
     align-content: center;
+    }
+    .creacionesUnicaH {
+    padding: 0px 0px 0px 0px;
     }
 
 
@@ -851,6 +854,10 @@ img {
 
     .tarjetaHamburguesa {
         width: 300px;
+    
+
+    
+
 
 
 
@@ -860,31 +867,27 @@ img {
 
     .cajaCompletaHot {
         display: block;
-    }
-    .creacionesHot {
-     display: block;
-     padding: 0px 0px 0px 0px;
-     align-content: center;
+        padding: 0px 0px 0px 0px;
     }
 
-    .españolaPerro {
-        width: 300px;
-    }
+ 
 
-
-    .hotText {
-        width: 300px;
-    }
     
-    .tarjetaPerro{
-        width: 300px;
-    }
+    
+ 
 
 
 
 
 
 
+
+
+
+
+
+
+    
     .piedePaginaCompleto {
         background-color: white;
         display: flex;
@@ -923,4 +926,5 @@ img {
         width: 300px;
         height: 300px;
     }
+
 }
