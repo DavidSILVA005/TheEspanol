@@ -736,7 +736,14 @@ img {
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px){
+
+
+
+       
+
+
+
 
 
     .body {
@@ -765,6 +772,7 @@ img {
         width: 300px;
         padding: 0px 0px 0px 0px;
     }
+
     .videoR {
         padding: 0px 10px 10px 0px;
         align-content: center;
@@ -789,6 +797,46 @@ img {
         padding: 25px 25px 10px 30px;
 
     }
+
+
+
+     
+    .piedePaginaCompleto {
+        display: flex;
+        padding: 5px 5px 5px 60px;
+        gap: 70px;
+    }
+
+    .instagramLogo {
+        width: 33px;
+    }
+    
+    .facebookLogo {
+        width: 30px;
+    }
+    
+    .tiktokLogo{
+        width: 30px;
+    }
+    
+    .whatsappLogo{
+        width: 30px;
+    }
+
+    .tercerParrafo {
+        background-color: #C0C0C0;
+        color: black;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 600 ;
+    }
+
+
+
+
+
+
+
 
 
     .cajaMapa {
@@ -878,57 +926,6 @@ img {
  
 
     
-    
  
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    .piedePaginaCompleto {
-        background-color: blue;
-        display: flex;
-        padding: 30px 10px 10px 10px;
-    }
-
-
-    .instagramLogo {
-width: 20px;
-    }
-    
-    .facebookLogo {
-        width: 30px;
-    }
-    
-    .tiktokLogo{
-        width: 30px;
-    }
-    
-    .whatsappLogo{
-        width: 50px;
-    }
-
-    .tercerParrafo {
-        background-color: #C0C0C0 ;
-        font-size: 15px;
-        font-weight: 600 ;
-        color: black;
-        text-align: center;
-    }
-
-
-    .iframe {
-        width: 300px;
-        height: 300px;
-    }
-
 
 }
