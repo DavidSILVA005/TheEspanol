@@ -740,16 +740,6 @@ img {
 
 
 
-       
-
-
-
-
-
-    .body {
-        background-color: burlywood;
-    }
-
     .tituloNuestras {
         font-size: 20px;
     }
@@ -774,7 +764,7 @@ img {
     }
 
     .videoR {
-        padding: 0px 10px 10px 0px;
+        padding: 10px 75px 10px 75px;
         align-content: center;
     }
 
@@ -803,10 +793,11 @@ img {
      
     .piedePaginaCompleto {
         display: flex;
+        background-color: ;
         padding: 5px 5px 5px 60px;
         gap: 70px;
     }
-
+ 
     .instagramLogo {
         width: 33px;
     }
@@ -828,7 +819,7 @@ img {
         color: black;
         text-align: center;
         font-size: 15px;
-        font-weight: 600 ;
+        font-weight: 600;
     }
 
 
@@ -837,10 +828,6 @@ img {
 
 
 
-
-
-    .cajaMapa {
-    }
 
     .administradores{
 
