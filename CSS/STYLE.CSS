@@ -739,6 +739,10 @@ img {
 @media screen and (max-width: 480px){
 
 
+    .creacionesMedia {
+        padding: 10px 80px 10px 90px;
+    }
+
 
     .tituloNuestras {
         font-size: 20px;
@@ -853,7 +857,7 @@ img {
     }
 
     .cajasMedia {
-        padding: 20px 60px 20px 60px;
+        padding: 20px 90px 20px 95px;
         align-content: center;
     }
 
@@ -865,50 +869,70 @@ img {
     
 
 
+
+                
+
+
+
+
+
+
+
+
+    .cajaTituloHot{
+        padding: 50px 10px 10px 10px;
+    }
+    .cajaCompletaHot {
+        display: block;        
+        padding: 0px 0px 0px 0px;
+            }
+    .creacionesHot {
+        width: 300px;
+        padding: 10px 80px 10px 90px;
+    }
+    .españolaPerro {
+        width: 300px;
+    }
+    .tarjetaPerro {
+        width: 300px;
+    }
+        
+
     .cajaCompletaCreaciones {
         display: block;
         padding: 0px 0px 0px 0px;
+        
     }
 
 
-
-
-    creacionesMedia {
-    display: block;
-    padding: 0x 0px 0px 0px;
-    align-content: center;
-    }
     .creacionesUnicaH {
-    padding: 0px 0px 0px 0px;
-    }
+        padding: 10px 80px 10px 90px;
+  }
 
 
-    .españolHamburguesa {
-        width: 300px;
-    }
+  .españolHamburguesa {
+    width: 300px;
+}
+.hamburguesaTexto {
+    width: 300px;
+}
 
-    .hamburguesaTexto {
-        width: 300px;
-    }
+.tarjetaHamburguesa {
+    width: 300px;
 
 
-    .tarjetaHamburguesa {
-        width: 300px;
+
+  
+
+
     
 
-    
 
 
 
 
 
 
-
-
-    .cajaCompletaHot {
-        display: block;
-        padding: 0px 0px 0px 0px;
-    }
 
  
 
