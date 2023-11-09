@@ -249,7 +249,9 @@ font-weight: 100;
 
 }
 
-
+.decoracionPN {
+    color: white;
+}
 
 
 
@@ -261,6 +263,7 @@ font-weight: 100;
     font-weight: ;
     color: black;
     text-align: center;
+    border-radius: 10px;
 }
 
 
@@ -372,7 +375,7 @@ font-weight: 100;
 
 .cajaCompletaAdmi{
 display: flex;
-padding: 20px 500px 20px  250px;
+padding: 20px 500px 20px  300px;
 gap: 105px;
 }
 
