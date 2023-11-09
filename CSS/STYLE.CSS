@@ -552,7 +552,11 @@ gap: 105px;
 /*----------------------------------------------COMICILIOS-------------------------*/
 /*----------------------------------------------COMICILIOS-------------------------*/
 /*----------------------------------------------COMICILIOS-------------------------*/
+.parrafoDomiciliosCompleto {
+    padding: 100px 100px 0px 100px;
+    text-align: ;
 
+}
 .parrafoDomicilios {
     background-color: ;
     margin: ;
@@ -562,6 +566,16 @@ gap: 105px;
     color: black;
 }
 
+.imagenMoto {
+    border-radius: 30px;
+    border-color: red;
+    border-style: dotted;
+
+}
+
+.motoCaja {
+    padding: 10px 100px 0px 350px;
+}
 /*----------------------------------------------RESERVACIONES-------------------------*/
 /*----------------------------------------------RESERVACIONES-------------------------*/
 /*----------------------------------------------RESERVACIONES-------------------------*/
