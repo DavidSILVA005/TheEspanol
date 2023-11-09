@@ -869,13 +869,22 @@ img {
 
 
 
+    .CajaCompletaSalchi {
+     padding: 0px 0px 0px 0px;
+     display: block;
+    }            
+
+    .creacionesSal {
+        width: 300px;
+        padding: 10px 80px 10px 90px;
     
+    }
+    .tarjetaSalchi{
+        width: 300px;
+    }
 
 
-
-                
-
-
+    
 
 
 
@@ -888,7 +897,7 @@ img {
     .cajaCompletaHot {
         display: block;        
         padding: 0px 0px 0px 0px;
-            }
+    }
     .creacionesHot {
         width: 300px;
         padding: 10px 80px 10px 90px;
@@ -925,7 +934,7 @@ img {
 
 
 
-  
+
 
 
     
