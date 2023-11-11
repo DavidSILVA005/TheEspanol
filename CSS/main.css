@@ -8,55 +8,37 @@
 }
 
 /*CUERPO*/
-/*COLOR DE FONDO-COLOR DE FONDO-COLOR DE FONDO-COLOR DE FONDO */
-/*COLOR DE FONDO-COLOR DE FONDO-COLOR DE FONDO-COLOR DE FONDO */
-/*COLOR DE FONDO-COLOR DE FONDO-COLOR DE FONDO-COLOR DE FONDO */
 body {
   background-color: e6ebe0;
 }
-
-/*MENU DE NAVEGACION */
-/*MENU DE NAVEGACION */
-/*MENU DE NAVEGACION */
-/*MENU DE NAVEGACION */
-.secuenciaPrincipal {
-  background-color: black;
-  padding: 100px 100px 10px 100px;
+body .navbar {
+  font-family: "Lora", serif;
+  font-weight: 100;
 }
-
-/*listas de items*/
-ul li a {
+body .navbar .nav-link {
+  color: red;
+}
+body .navbar ul li a {
   color: red;
   font-family: "Lora", serif;
   text-shadow: 3px 3px 10px rgb(0, 0, 0);
 }
-
-.navbar {
-  font-family: "Lora", serif;
-  font-weight: 100;
+body .secuenciaPrincipal {
+  background-color: black;
+  padding: 100px 100px 10px 100px;
 }
-
-.nav-link {
-  color: red;
+body .secuenciaPrincipal .buttonColor {
+  color: white;
 }
-
-/*texto NO OLVIDAR QUE ES DE LA SLIDE*/
-.TextoSlide {
+body .secuenciaPrincipal .TextoSlide {
   color: antiquewhite;
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
-
-.buttonColor {
-  color: white;
-}
-
-/*listas de items*/
-.cuadroComparte {
+body .cuadroComparte {
   padding: 1rem;
   background-color: black;
 }
-
-.primerParrafo {
+body .cuadroComparte .primerParrafo {
   background-color: rgba(255, 0, 0, 0.651);
   font-family: "Lora", serif;
   font-weight: 800;
@@ -67,31 +49,10 @@ ul li a {
   text-shadow: 3px 3px 10px rgb(0, 0, 0);
   border-radius: 10px;
 }
-
-/*SECCION NUESTRAS RECOMENDADAS */
-/*SECCION NUESTRAS RECOMENDADAS */
-/*SECCION NUESTRAS RECOMENDADAS */
-/*SECCION NUESTRAS RECOMENDADAS */
-/*SECCION NUESTRAS RECOMENDADAS */
-.imagenPuntoP {
-  background-color: black;
-  width: 70%;
-  color: transparent;
-  opacity: 0.5;
-}
-
-/*COMBOS IMAGENES*/
-/*COMBOS IMAGENES*/
-/*COMBOS IMAGENES*/
-/*COMBOS IMAGENES*/
-/*COMBOS IMAGENES*/
-/*COMBOS IMAGENES*/
-/**/
-.todoRecomendadas {
+body .todoRecomendadas {
   padding: 1rem;
 }
-
-.nuestrasRecomendadasFondo {
+body .todoRecomendadas .nuestrasRecomendadasFondo {
   background-color: #19191a;
   padding: 0.5rem;
   font-family: "Lora", serif;
@@ -101,21 +62,21 @@ ul li a {
   font-weight: bold;
   border-radius: 10px;
 }
-
-.tituloNuestras {
+body .todoRecomendadas .nuestrasRecomendadasFondo .tituloNuestras {
   font-size: 40px;
 }
-
-/*COMBOS TEXTOS*/
-/*COMBOS TEXTOS*/
-/*COMBOS TEXTOS*/
-/*COMBOS TEXTOS*/
-/*COMBOS TEXTOS*/
-/*COMBOS TEXTOS*/
-.losCombos {
+body .losCombos {
   display: flex;
   padding: 40px 0px 10px 0px;
   gap: 20px;
+}
+
+/* AQUI VOY AQUI VOY AQUI VOY */
+.imagenPuntoP {
+  background-color: black;
+  width: 70%;
+  color: transparent;
+  opacity: 0.5;
 }
 
 .infoCombos {

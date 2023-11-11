@@ -13,90 +13,109 @@
 
 /*CUERPO*/
 
-/*COLOR DE FONDO-COLOR DE FONDO-COLOR DE FONDO-COLOR DE FONDO */
-/*COLOR DE FONDO-COLOR DE FONDO-COLOR DE FONDO-COLOR DE FONDO */
-/*COLOR DE FONDO-COLOR DE FONDO-COLOR DE FONDO-COLOR DE FONDO */
-
 body{
     background-color: e6ebe0;
-}
 
 
-/*MENU DE NAVEGACION */
-/*MENU DE NAVEGACION */
-/*MENU DE NAVEGACION */
-/*MENU DE NAVEGACION */
-.todoEncabezado {
 
-}
+    .navbar {
+        font-family: 'Lora', serif;
+        font-weight: 100;
+
+                    .nav-link {
+                         color: red
+                    }
+
+                    ul li a{
+                        color:red;
+                        font-family: 'Lora', serif;
+                        text-shadow: 3px 3px 10px rgba(0, 0, 0, 8.0);
+                        }
+
+    }
 
 
-.secuenciaPrincipal {
-    background-color:black ;
-    padding: 100px 100px 10px  100px;
+    .secuenciaPrincipal {
+        background-color:black ;
+        padding: 100px 100px 10px  100px;
+                   
+        .buttonColor {
+            color: white;
+        }
+
+        .TextoSlide {
+            color: antiquewhite;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 8.0);
+        }        
+        
+    }
+
+    .cuadroComparte {
+        padding:1rem;
+        background-color: black;
+
+        .primerParrafo {
+            background-color:rgba(255, 0, 0, 0.651);
+            font-family: 'Lora', serif;
+            font-weight: 800;
+            color: white;
+            text-align: center;
+            font-size: 23px;
+            padding: 50px;
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 9.0);
+            border-radius: 10px;
+        }
     
-}
+    }
 
+    .todoRecomendadas {
+        padding: 1rem;
 
+        .nuestrasRecomendadasFondo {
+            background-color: #19191a;
+            padding: 0.5rem;
+            font-family: 'Lora', serif;
+            color: rgb(255, 255, 255);
+            text-align: center ;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 8.0);
+            font-weight:bold;
+            border-radius: 10px;
 
-/*listas de items*/
+                         .tituloNuestras {
+                         font-size: 40px;
+                         }
+         }
+    }
 
-
-ul li a{
-color:red;
-font-family: 'Lora', serif;
-text-shadow: 3px 3px 10px rgba(0, 0, 0, 8.0);
-}
-
-.navbar {
-font-family: 'Lora', serif;
-font-weight: 100;
-}
-
-.nav-link {
-    color: red
-}
-
-
-
-
-/*texto NO OLVIDAR QUE ES DE LA SLIDE*/
-.TextoSlide {
-    color: antiquewhite;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 8.0);
-}
-
-.buttonColor {
-    color: white;
-}
-
-/*listas de items*/
-
-
-.cuadroComparte {
-    padding:1rem;
-    background-color: black;
-
-}
-
-.primerParrafo {
-    background-color:rgba(255, 0, 0, 0.651);
-    font-family: 'Lora', serif;
-    font-weight: 800;
-    color: white;
-    text-align: center;
-    font-size: 23px;
-    padding: 50px;
-    text-shadow: 3px 3px 10px rgba(0, 0, 0, 9.0);
-    border-radius: 10px;
+    .losCombos {
+        display: flex;
+        padding: 40px 0px 10px 0px;
+        gap: 20px; 
+    
+    }
 
 
 }
-/*SECCION NUESTRAS RECOMENDADAS */
-/*SECCION NUESTRAS RECOMENDADAS */
-/*SECCION NUESTRAS RECOMENDADAS */
-/*SECCION NUESTRAS RECOMENDADAS */
-/*SECCION NUESTRAS RECOMENDADAS */
+/* AQUI VOY AQUI VOY AQUI VOY */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .imagenPuntoP {
     background-color: black;
@@ -104,34 +123,6 @@ font-weight: 100;
     color: transparent;
     opacity: 0.5;
 }
-/*COMBOS IMAGENES*/
-/*COMBOS IMAGENES*/
-/*COMBOS IMAGENES*/
-/*COMBOS IMAGENES*/
-/*COMBOS IMAGENES*/
-/*COMBOS IMAGENES*/
-
-
-/**/
-
-.todoRecomendadas {
-    padding: 1rem;
-}
-
-.nuestrasRecomendadasFondo {
-    background-color: #19191a;
-    padding: 0.5rem;
-    font-family: 'Lora', serif;
-    color: rgb(255, 255, 255);
-    text-align: center ;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 8.0);
-    font-weight:bold;
-    border-radius: 10px;
-
-}
-.tituloNuestras {
-    font-size: 40px;
-}
 
 
 
@@ -140,21 +131,8 @@ font-weight: 100;
 
 
 
-/*COMBOS TEXTOS*/
-/*COMBOS TEXTOS*/
-/*COMBOS TEXTOS*/
-/*COMBOS TEXTOS*/
-/*COMBOS TEXTOS*/
-/*COMBOS TEXTOS*/
 
 
-
-.losCombos {
-    display: flex;
-    padding: 40px 0px 10px 0px;
-    gap: 20px; 
-
-}
 .infoCombos {
     padding-left: 15px;
 }
