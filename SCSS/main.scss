@@ -7,10 +7,6 @@
     box-sizing: border-box;
 }
 
-
-
-
-
 /*CUERPO*/
 
 body{
@@ -23,14 +19,14 @@ body{
         font-weight: 100;
 
                     .nav-link {
-                         color: red
+                    color: red
                     }
 
                     ul li a{
-                        color:red;
-                        font-family: 'Lora', serif;
-                        text-shadow: 3px 3px 10px rgba(0, 0, 0, 8.0);
-                        }
+                    color:red;
+                    font-family: 'Lora', serif;
+                    text-shadow: 3px 3px 10px rgba(0, 0, 0, 8.0);
+                    }
 
     }
 
@@ -91,21 +87,175 @@ body{
         display: flex;
         padding: 40px 0px 10px 0px;
         gap: 20px; 
-    
+
+        .comboUnoCombinado {
+            background-color: black;
+            overflow: hidden;
+            border-radius: 30px;
+                        
+                        .textoComboUno  {
+                        font-family: 'Lora', serif;
+                        color: red;
+                        text-align: center;
+                        }
+         }
+
+         .comboDosCombinado {
+            background-color: black;
+            overflow: hidden;
+            border-radius: 30px;
+
+                        .textoComboDos  {
+                        font-family: 'Lora', serif;
+                        color: red;
+                        text-align: center;
+                        }
+        }
+
+        .comboTresCombinado {
+            background-color: black;
+            overflow: hidden;
+            border-radius: 30px;
+
+                        .textoComboTres  {
+                        font-family: 'Lora', serif;
+                        color: red;
+                        text-align: center;
+                        }
+        }
+        
+        .comboCuatroCombinado {
+            background-color: black;
+            overflow: hidden;
+            border-radius: 30px;
+
+                         .textoComboCuatro  {
+                         font-family: 'Lora', serif;
+                         color: red;
+                         text-align: center;
+                         }
+        }
+
+        .comboCincoCombinado {
+
+            background-color: black;
+            overflow: hidden;
+            border-radius: 30px;
+            
+                        .textoComboCinco  {
+                        font-family: 'Lora', serif;
+                        color: red;
+                        text-align: center;
+                        }
+        }
+
+        .infoCombos {
+            padding-left: 15px;
+        }
+
+        .imagenCombo{
+            width: 350px;
+        }
+
+        .decoracionPN {
+            color: white;
+        }
     }
 
+    .segundoParrafo {
+        background-color: #C0C0C0;
+        font-family: 'Lora', serif;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        border-radius: 10px;
+    }
 
+    .videoR {
+        padding: 50px 400px 50px 400px;
+        display: flex;
+
+        .cajaVideoY {
+            width: 500px;
+            background-color: black;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            border-radius:10px;
+
+                         .videoBox {
+                         border-radius: 10px;
+                         width: 400px;
+                         }
+        }
+    }
+
+    .cajaPfisico {
+        background-color: black;
+        display: flex;
+        padding: 40px 150px 40px 150px;
+        gap: 60px; 
+        border-radius: 1rem;
+
+        .ubicacionPuntoP {
+            width: 470px;
+        }   
+        
+    }
+ }
+
+
+
+
+
+
+footer {
+
+    .cajaTpiePagina{
+        padding: 50px 0px 0px 0px;
+    
+        .tituloPiedePagina {
+            background-color: black;
+            font-family: 'Lora', serif;
+            color: whitesmoke;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 8.0);
+        }
+    }
+
+    .piedePaginaCompleto {
+        background-color: white;
+        display: flex;
+        padding: 0px 150px 0px 150px;
+        gap: 240px;
+    
+        .instagramLogo {
+            width: 53px;
+            text-decoration: none;
+        }
+    
+        .facebookLogo {
+            width: 50px;
+        }
+    
+        .tiktokLogo{
+            width: 50px;
+        }
+    
+        .whatsappLogo{
+            width: 50px;
+        }
+    
+    }
+    
+    .tercerParrafo {
+        background-color: #C0C0C0 ;
+        font-family: 'Lora', serif;
+        font-weight: 600 ;
+        color: black;
+        text-align: center;
+    }
 }
-/* AQUI VOY AQUI VOY AQUI VOY */
-
-
-
-
-
-
-
-
-
 
 
 
@@ -123,162 +273,6 @@ body{
     color: transparent;
     opacity: 0.5;
 }
-
-
-
-
-
-
-
-
-
-
-.infoCombos {
-    padding-left: 15px;
-}
-
-
-.imagenCombo{
-    width: 350px;
-}
-
-
-
-.textoComboUno  {
-    font-family: 'Lora', serif;
-    color: red;
-    text-align: center;
-
-
-}
-
-
-.comboUnoCombinado {
-   background-color: black;
-   overflow: hidden;
-   border-radius: 30px;
-}
-
-
-
-.textoComboDos  {
-    font-family: 'Lora', serif;
-    color: red;
-    text-align: center;
-}
-
-
-.comboDosCombinado {
-    background-color: black;
-    overflow: hidden;
-    border-radius: 30px;
-    
-
-}
-.textoComboTres  {
-    font-family: 'Lora', serif;
-    color: red;
-    text-align: center;
-
-}
-.comboTresCombinado {
-    background-color: black;
-    overflow: hidden;
-    border-radius: 30px;
-    
-
-}
-.textoComboCuatro  {
-    font-family: 'Lora', serif;
-    color: red;
-    text-align: center;
-
-}
-.comboCuatroCombinado {
-    background-color: black;
-    overflow: hidden;
-    border-radius: 30px;
-}
-.textoComboCinco  {
-    font-family: 'Lora', serif;
-    color: red;
-    text-align: center;
-
-}
-
-.comboCincoCombinado {
-
-    background-color: black;
-    overflow: hidden;
-    border-radius: 30px;
-
-}
-
-.decoracionPN {
-    color: white;
-}
-
-
-
-.segundoParrafo {
-    background-color: #C0C0C0;
-    font-family: 'Lora', serif;
-    font-size: 20px;
-    color: black;
-    text-align: center;
-    border-radius: 10px;
-}
-
-
-
-
-.videoR {
-    padding: 50px 400px 50px 400px;
-    display: flex;
-}
-
-.videoBox {
-    border-radius: 10px;
-    width: 400px;
-
-}
-.cajaVideoY {
-    width: 500px;
-    background-color: black;
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    border-radius:10px;
-}
-
-
-
-
-
-/*....UBICACION....*/
-/*....UBICACION....*/
-/*....UBICACION....*/
-/*....UBICACION....*/
-/*....UBICACION....*/
-/*....UBICACION....*/
-
-.cajaPfisico {
-    background-color: black;
-    display: flex;
-    padding: 40px 150px 40px 150px;
-    gap: 60px; 
-    border-radius: 1rem;
-}
-
-
-.ubicacionPuntoP {
-    width: 470px;
-}
-
-
-
-
-
 
 
 
@@ -623,49 +617,16 @@ img {
 /* TODO LO QUE TIENE QUE VER CON EL PIE DE PÁGINA*/
 /* TODO LO QUE TIENE QUE VER CON EL PIE DE PÁGINA*/
 
-.cajaTpiePagina{
-    padding: 50px 0px 0px 0px;
-}
 
-.tituloPiedePagina {
-    background-color: black;
-    font-family: 'Lora', serif;
-    color: whitesmoke;
-    text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 8.0);
 
-}
 
-.piedePaginaCompleto {
-    background-color: white;
-    display: flex;
-    padding: 0px 150px 0px 150px;
-    gap: 240px;
-}
-.instagramLogo {
-    width: 53px;
-    text-decoration: none;
-}
 
-.facebookLogo {
-    width: 50px;
-}
 
-.tiktokLogo{
-    width: 50px;
-}
 
-.whatsappLogo{
-    width: 50px;
-}
 
-.tercerParrafo {
-    background-color: #C0C0C0 ;
-    font-family: 'Lora', serif;
-    font-weight: 600 ;
-    color: black;
-    text-align: center;
-}
+
+
+
 
 
 
@@ -680,6 +641,8 @@ img {
 /* media media media media media media media media media*/
 
 
+
+body {
 
 @media screen and (max-width: 480px){
     .cajaTituloHamburguesas{
@@ -884,6 +847,5 @@ img {
 .imagenMoto {
     width: 300px;
 }
-
-
+}
 }

@@ -70,88 +70,66 @@ body .losCombos {
   padding: 40px 0px 10px 0px;
   gap: 20px;
 }
-
-/* AQUI VOY AQUI VOY AQUI VOY */
-.imagenPuntoP {
+body .losCombos .comboUnoCombinado {
   background-color: black;
-  width: 70%;
-  color: transparent;
-  opacity: 0.5;
+  overflow: hidden;
+  border-radius: 30px;
 }
-
-.infoCombos {
+body .losCombos .comboUnoCombinado .textoComboUno {
+  font-family: "Lora", serif;
+  color: red;
+  text-align: center;
+}
+body .losCombos .comboDosCombinado {
+  background-color: black;
+  overflow: hidden;
+  border-radius: 30px;
+}
+body .losCombos .comboDosCombinado .textoComboDos {
+  font-family: "Lora", serif;
+  color: red;
+  text-align: center;
+}
+body .losCombos .comboTresCombinado {
+  background-color: black;
+  overflow: hidden;
+  border-radius: 30px;
+}
+body .losCombos .comboTresCombinado .textoComboTres {
+  font-family: "Lora", serif;
+  color: red;
+  text-align: center;
+}
+body .losCombos .comboCuatroCombinado {
+  background-color: black;
+  overflow: hidden;
+  border-radius: 30px;
+}
+body .losCombos .comboCuatroCombinado .textoComboCuatro {
+  font-family: "Lora", serif;
+  color: red;
+  text-align: center;
+}
+body .losCombos .comboCincoCombinado {
+  background-color: black;
+  overflow: hidden;
+  border-radius: 30px;
+}
+body .losCombos .comboCincoCombinado .textoComboCinco {
+  font-family: "Lora", serif;
+  color: red;
+  text-align: center;
+}
+body .losCombos .infoCombos {
   padding-left: 15px;
 }
-
-.imagenCombo {
+body .losCombos .imagenCombo {
   width: 350px;
 }
-
-.textoComboUno {
-  font-family: "Lora", serif;
-  color: red;
-  text-align: center;
-}
-
-.comboUnoCombinado {
-  background-color: black;
-  overflow: hidden;
-  border-radius: 30px;
-}
-
-.textoComboDos {
-  font-family: "Lora", serif;
-  color: red;
-  text-align: center;
-}
-
-.comboDosCombinado {
-  background-color: black;
-  overflow: hidden;
-  border-radius: 30px;
-}
-
-.textoComboTres {
-  font-family: "Lora", serif;
-  color: red;
-  text-align: center;
-}
-
-.comboTresCombinado {
-  background-color: black;
-  overflow: hidden;
-  border-radius: 30px;
-}
-
-.textoComboCuatro {
-  font-family: "Lora", serif;
-  color: red;
-  text-align: center;
-}
-
-.comboCuatroCombinado {
-  background-color: black;
-  overflow: hidden;
-  border-radius: 30px;
-}
-
-.textoComboCinco {
-  font-family: "Lora", serif;
-  color: red;
-  text-align: center;
-}
-
-.comboCincoCombinado {
-  background-color: black;
-  overflow: hidden;
-  border-radius: 30px;
-}
-
-.decoracionPN {
+body .losCombos .decoracionPN {
   color: white;
 }
-
-.segundoParrafo {
+body .segundoParrafo {
   background-color: #C0C0C0;
   font-family: "Lora", serif;
   font-size: 20px;
@@ -159,18 +137,11 @@ body .losCombos {
   text-align: center;
   border-radius: 10px;
 }
-
-.videoR {
+body .videoR {
   padding: 50px 400px 50px 400px;
   display: flex;
 }
-
-.videoBox {
-  border-radius: 10px;
-  width: 400px;
-}
-
-.cajaVideoY {
+body .videoR .cajaVideoY {
   width: 500px;
   background-color: black;
   padding: 30px;
@@ -178,23 +149,63 @@ body .losCombos {
   justify-content: center;
   border-radius: 10px;
 }
-
-/*....UBICACION....*/
-/*....UBICACION....*/
-/*....UBICACION....*/
-/*....UBICACION....*/
-/*....UBICACION....*/
-/*....UBICACION....*/
-.cajaPfisico {
+body .videoR .cajaVideoY .videoBox {
+  border-radius: 10px;
+  width: 400px;
+}
+body .cajaPfisico {
   background-color: black;
   display: flex;
   padding: 40px 150px 40px 150px;
   gap: 60px;
   border-radius: 1rem;
 }
-
-.ubicacionPuntoP {
+body .cajaPfisico .ubicacionPuntoP {
   width: 470px;
+}
+
+footer .cajaTpiePagina {
+  padding: 50px 0px 0px 0px;
+}
+footer .cajaTpiePagina .tituloPiedePagina {
+  background-color: black;
+  font-family: "Lora", serif;
+  color: whitesmoke;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+footer .piedePaginaCompleto {
+  background-color: white;
+  display: flex;
+  padding: 0px 150px 0px 150px;
+  gap: 240px;
+}
+footer .piedePaginaCompleto .instagramLogo {
+  width: 53px;
+  text-decoration: none;
+}
+footer .piedePaginaCompleto .facebookLogo {
+  width: 50px;
+}
+footer .piedePaginaCompleto .tiktokLogo {
+  width: 50px;
+}
+footer .piedePaginaCompleto .whatsappLogo {
+  width: 50px;
+}
+footer .tercerParrafo {
+  background-color: #C0C0C0;
+  font-family: "Lora", serif;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+
+body .imagenPuntoP {
+  background-color: black;
+  width: 70%;
+  color: transparent;
+  opacity: 0.5;
 }
 
 /*----------------------------------------------CONTACTANOS---------------------------------*/
@@ -493,50 +504,6 @@ img {
 /* TODO LO QUE TIENE QUE VER CON EL PIE DE PÁGINA*/
 /* TODO LO QUE TIENE QUE VER CON EL PIE DE PÁGINA*/
 /* TODO LO QUE TIENE QUE VER CON EL PIE DE PÁGINA*/
-.cajaTpiePagina {
-  padding: 50px 0px 0px 0px;
-}
-
-.tituloPiedePagina {
-  background-color: black;
-  font-family: "Lora", serif;
-  color: whitesmoke;
-  text-align: center;
-  text-shadow: 2px 2px 4px rgb(0, 0, 0);
-}
-
-.piedePaginaCompleto {
-  background-color: white;
-  display: flex;
-  padding: 0px 150px 0px 150px;
-  gap: 240px;
-}
-
-.instagramLogo {
-  width: 53px;
-  text-decoration: none;
-}
-
-.facebookLogo {
-  width: 50px;
-}
-
-.tiktokLogo {
-  width: 50px;
-}
-
-.whatsappLogo {
-  width: 50px;
-}
-
-.tercerParrafo {
-  background-color: #C0C0C0;
-  font-family: "Lora", serif;
-  font-weight: 600;
-  color: black;
-  text-align: center;
-}
-
 /* media media media media media media media media media*/
 /* media media media media media media media media media*/
 /* media media media media media media media media media*/
@@ -545,142 +512,142 @@ img {
 /* media media media media media media media media media*/
 /* media media media media media media media media media*/
 @media screen and (max-width: 480px) {
-  .cajaTituloHamburguesas {
+  body .cajaTituloHamburguesas {
     padding: 100px 10px 10px 10px;
   }
-  .cajaTituloSalchi {
+  body .cajaTituloSalchi {
     padding: 50px 10px 10px 10px;
   }
-  .creacionesMedia {
+  body .creacionesMedia {
     padding: 10px 80px 10px 90px;
   }
-  .tituloNuestras {
+  body .tituloNuestras {
     font-size: 20px;
   }
-  .losCombos {
+  body .losCombos {
     display: block;
   }
-  .imagenCombo {
+  body .imagenCombo {
     width: 100%;
   }
-  .mobileCombos {
+  body .mobileCombos {
     padding: 10px 5px 20px 5px;
   }
-  .cajaVideoY {
+  body .cajaVideoY {
     width: 300px;
     padding: 0px 0px 0px 0px;
   }
-  .videoR {
+  body .videoR {
     padding: 10px 75px 10px 75px;
     align-content: center;
   }
-  .videoBox {
+  body .videoBox {
     width: 200;
   }
-  .cajaPfisico {
+  body .cajaPfisico {
     display: block;
     padding: 25px;
   }
-  .ubicacionPuntoP {
+  body .ubicacionPuntoP {
     width: 400px;
     border-radius: 10px;
   }
-  .mapaBox {
+  body .mapaBox {
     width: 400px;
     padding: 25px 25px 10px 30px;
   }
-  .piedePaginaCompleto {
+  body .piedePaginaCompleto {
     display: flex;
     padding: 5px 5px 5px 60px;
     gap: 70px;
   }
-  .instagramLogo {
+  body .instagramLogo {
     width: 33px;
   }
-  .facebookLogo {
+  body .facebookLogo {
     width: 30px;
   }
-  .tiktokLogo {
+  body .tiktokLogo {
     width: 30px;
   }
-  .whatsappLogo {
+  body .whatsappLogo {
     width: 30px;
   }
-  .tercerParrafo {
+  body .tercerParrafo {
     background-color: #C0C0C0;
     color: black;
     text-align: center;
     font-size: 15px;
     font-weight: 600;
   }
-  .administradores {
+  body .administradores {
     overflow: hidden;
     border-radius: 20px;
     width: 300px;
   }
-  .cajaCompletaAdmi {
+  body .cajaCompletaAdmi {
     display: block;
     padding: 0px 0px 0px 0px;
   }
-  .textoAdmi {
+  body .textoAdmi {
     width: 300px;
   }
-  .cajasTextoquienes {
+  body .cajasTextoquienes {
     width: 300px;
   }
-  .cajasMedia {
+  body .cajasMedia {
     padding: 20px 90px 20px 95px;
     align-content: center;
   }
-  .CajaCompletaSalchi {
+  body .CajaCompletaSalchi {
     padding: 0px 0px 0px 0px;
     display: block;
   }
-  .creacionesSal {
+  body .creacionesSal {
     width: 300px;
     padding: 10px 80px 10px 90px;
   }
-  .tarjetaSalchi {
+  body .tarjetaSalchi {
     width: 300px;
   }
-  .cajaTituloHot {
+  body .cajaTituloHot {
     padding: 50px 10px 10px 10px;
   }
-  .cajaCompletaHot {
+  body .cajaCompletaHot {
     display: block;
     padding: 0px 0px 0px 0px;
   }
-  .creacionesHot {
+  body .creacionesHot {
     width: 300px;
     padding: 10px 80px 10px 90px;
   }
-  .españolaPerro {
+  body .españolaPerro {
     width: 300px;
   }
-  .tarjetaPerro {
+  body .tarjetaPerro {
     width: 300px;
   }
-  .cajaCompletaCreaciones {
+  body .cajaCompletaCreaciones {
     display: block;
     padding: 0px 0px 0px 0px;
   }
-  .creacionesUnicaH {
+  body .creacionesUnicaH {
     padding: 10px 80px 10px 90px;
   }
-  .españolHamburguesa {
+  body .españolHamburguesa {
     width: 300px;
   }
-  .hamburguesaTexto {
+  body .hamburguesaTexto {
     width: 300px;
   }
-  .tarjetaHamburguesa {
+  body .tarjetaHamburguesa {
     width: 300px;
   }
-  .motoCaja {
+  body .motoCaja {
     width: 300px;
     padding: 0px 0px 0px 100px;
   }
-  .imagenMoto {
+  body .imagenMoto {
     width: 300px;
   }
 }
