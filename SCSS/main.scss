@@ -7,13 +7,8 @@
     box-sizing: border-box;
 }
 
-/*CUERPO*/
-
 body{
     background-color: e6ebe0;
-
-
-
     .navbar {
         font-family: 'Lora', serif;
         font-weight: 100;
@@ -27,9 +22,7 @@ body{
                     font-family: 'Lora', serif;
                     text-shadow: 3px 3px 10px rgba(0, 0, 0, 8.0);
                     }
-
     }
-
 
     .secuenciaPrincipal {
         background-color:black ;
@@ -206,8 +199,212 @@ body{
 
 
 
+body {
+    .cajaQuienesSomos {
+        padding: 100px 0px 0px 0px;
 
+        .parrafoQuienesSomos {
+            font-family: 'Lora', serif;
+            color: black;
+        }        
+    }
 
+    .cajaCompletaAdmi{
+        display: flex;
+        padding: 20px 500px 20px  300px;
+        gap: 105px;
+
+        .administradores {
+            border-radius: 25px;
+            overflow: hidden;
+
+                        .textoAdmi    {
+                        width: 450px;
+                        }
+           }
+        .cajasTextoquienes {
+    
+            background-color: black;
+            font-family: 'Lora', serif;
+            color: white;
+            width: 450px;
+            text-align: center;
+            padding: 1px;
+           }
+    }
+}
+
+body {
+    .cajaTituloHamburguesas {
+        padding: 90px 120px 10px 120px;
+
+        .hamburguesasTitulo{
+            font-family: 'Lora', serif;
+            color: white;
+            background-color: #522B47;
+            text-align: center;
+            padding: 8px 8px 8px 8px;
+            border-radius: 15px;
+        }
+    }
+
+    .cajaCompletaCreaciones {
+        display: flex;
+        padding: 40px 300px 20px 275px;
+        gap: 70px;
+
+        .creacionesUnicaH {
+            padding: 40px 250px 20px 250px;
+        }
+
+        .tarjetaHamburguesa {
+            border-radius: 25px;
+            overflow: hidden;
+            .españolaHamburguesa {
+                width: 450px;
+             }
+             .hamburguesaTexto {
+                background-color: black;
+                font-family: 'Lora', serif;
+                color: red;
+                width: 450px;
+                text-align: center;
+                padding: 1px;
+            }
+         }
+    }
+
+    .cajaTituloHot {
+        padding: 200px 120px 10px 120px;
+     
+        .hotDogTitulo {
+        font-family: 'Lora', serif;
+        color:white;
+        background-color: #522B47;
+        text-align: center;
+        padding: 8px 8px 8px 8px;
+        border-radius: 15px;
+    }
+    }
+
+    .cajaCompletaHot{
+        display: flex;
+        padding: 40px 250px 30px 260px;
+        gap: 50px;
+    
+        .tarjetaPerro {
+            border-radius: 25px;
+            overflow: hidden;
+    
+            .españolaPerro {
+                width: 300px;
+            }
+            .hotText {
+                background-color: black;
+                font-family: 'Lora', serif;
+                color: red;
+                width: 300px;
+                text-align: center;
+                padding: 1px;
+            }
+        }
+        
+    }
+    
+    .cajaTituloSalchi {
+        padding: 200px 120px 10px 120px;
+
+        .salchipapasTitulo {
+            font-family: 'Lora', serif;
+            color: white;
+            background-color: #522B47;
+            text-align: center;
+            padding: 8px 8px 8px 8px;
+            border-radius: 15px;
+        }
+    }
+
+    .CajaCompletaSalchi {
+        display: flex;
+        padding: 40px 250px 30px 260px;
+        gap: 50px;
+    
+        .tarjetaSalchi {
+            border-radius: 25px;
+            overflow: hidden;
+            
+                .espaSalchi {
+                width: 300px;
+        }
+        .salchiTexto {
+            background-color: black;
+            font-family: 'Lora', serif;
+            color: red;
+            width: 300px;
+            text-align: center;
+            padding: 1px;
+        }
+    }
+    }
+    
+    .parrafoCreaciones {
+        padding: 10px 0px 0px 0px;
+        font-family: 'Lora', serif;
+        color: black;
+    }
+}
+
+body {
+    .parrafoDomiciliosCompleto {
+        padding: 100px 100px 0px 100px;
+
+        .parrafoDomicilios {
+            font-family: 'Lora', serif;
+            color: black;
+        }
+    }
+
+    
+.motoCaja {
+    padding: 10px 100px 0px 350px;
+    .imagenMoto {
+        border-radius: 30px;
+        border-color: red;
+        border-style: dotted;
+    }
+}
+}
+
+body {
+    .parrafoReservaciones {
+        font-family: 'Lora', serif;
+        color: black;
+        display: flex;
+        padding: 80px 0px 0px 0px;
+
+        .formulario {
+            padding: 0px 0px 0px  0px;
+        
+            .reservar {
+
+                font-family: 'Lora', serif;
+                color: black;
+            }
+
+            .borrar {
+
+                font-family: 'Lora', serif;
+                color: black;
+            }
+            
+            .nohagoNada {
+            
+                font-family: 'Lora', serif;
+                color: black;
+            }
+        }
+    }
+}
 
 footer {
 
@@ -247,7 +444,7 @@ footer {
         }
     
     }
-    
+
     .tercerParrafo {
         background-color: #C0C0C0 ;
         font-family: 'Lora', serif;
@@ -257,394 +454,8 @@ footer {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-.imagenPuntoP {
-    background-color: black;
-    width: 70%;
-    color: transparent;
-    opacity: 0.5;
-}
-
-
-
-/*----------------------------------------------CONTACTANOS---------------------------------*/
-.parrafoContactanos {
-    font-family: 'Lora', serif;
-    color: black;
-}
-/*----------------------------------------------QUIENES SOMOS ---------------------------------*/
-
-.cajaQuienesSomos {
-    padding: 100px 0px 0px 0px;
-
-}
-
-
-
-
-.parrafoQuienesSomos {
-    font-family: 'Lora', serif;
-    color: black;
-}
-
-
-/* --------------------      */
-.administradores {
- border-radius: 25px;
- overflow: hidden;
-}
-
-
-.textoAdmi    {
-    width: 450px;
-
-}
-
-.cajasTextoquienes {
-    
-    background-color: black;
-    font-family: 'Lora', serif;
-    color: white;
-    width: 450px;
-    text-align: center;
-    padding: 1px;
-
-}
-
-.cajaCompletaAdmi{
-display: flex;
-padding: 20px 500px 20px  300px;
-gap: 105px;
-}
-
-
-
-/*----------------------------------------------NUESTRAS CREACIONES ---------------------------------*/
-/*----------------------------------------------NUESTRAS CREACIONES-------------------------*/
-/*PARRAFOS*/
-/*PARRAFOS*/
-/*PARRAFOS*/
-
-.cajaTituloHamburguesas {
-    padding: 90px 120px 10px 120px;
-}
-
-
-
-.cajaTituloSalchi {
-    padding: 200px 120px 10px 120px;
-
-}
-
-.cajaTituloHot {
-    padding: 200px 120px 10px 120px;
-
-}
-
-
-.hamburguesasTitulo{
-    font-family: 'Lora', serif;
-    color: white;
-    background-color: #522B47;
-    text-align: center;
-    padding: 8px 8px 8px 8px;
-    border-radius: 15px;
-}
-
-.hotDogTitulo {
-    font-family: 'Lora', serif;
-    color:white;
-    background-color: #522B47;
-    text-align: center;
-    padding: 8px 8px 8px 8px;
-    border-radius: 15px;
-}
-.salchipapasTitulo {
-    font-family: 'Lora', serif;
-    color: white;
-    background-color: #522B47;
-    text-align: center;
-    padding: 8px 8px 8px 8px;
-    border-radius: 15px;
-}
-.parrafoCreaciones {
-    padding: 10px 0px 0px 0px;
-    font-family: 'Lora', serif;
-    color: black;
-}
-/*Hamburguesas*/
-/*Hamburguesas*/
-/*Hamburguesas*/
-/*Hamburguesas*/
-/*Hamburguesas*/
-/*Hamburguesas*/
-/*Hamburguesas*/
-/*Hamburguesas*/
-/*Hamburguesas*/
-/*Hamburguesas*/
-/*Hamburguesas*/
-/*Hamburguesas*/
-
-.cajaCompletaCreaciones {
-    display: flex;
-    padding: 40px 300px 20px 275px;
-    gap: 70px;
-}
-.hamburguesaTexto {
-    background-color: black;
-    font-family: 'Lora', serif;
-    color: red;
-    width: 450px;
-    text-align: center;
-    padding: 1px;
-}
-
-.creacionesUnicaH {
-    padding: 40px 250px 20px 250px;
-
-}
-
- .españolaHamburguesa {
-    width: 450px;
- }
-
- .tarjetaHamburguesa {
-    border-radius: 25px;
-    overflow: hidden;
- }
-
-/*......................................*/
-/*Hot Dogs*/
-.cajaCompletaHot{
-    display: flex;
-    padding: 40px 250px 30px 260px;
-    gap: 50px;
-}
-
-.españolaPerro {
-    width: 300px;
-}
-
-.hotText {
-    background-color: black;
-    font-family: 'Lora', serif;
-    color: red;
-    width: 300px;
-    text-align: center;
-    padding: 1px;
-}
-
-.tarjetaPerro {
-    border-radius: 25px;
-    overflow: hidden;
-
-}
-
-
-/*......................................*/
-
-/*SALCHIPAPAS*/
-/*SALCHIPAPAS*/
-/*SALCHIPAPAS*/
-/*SALCHIPAPAS*/
-/*SALCHIPAPAS*/
-
-
-.CajaCompletaSalchi {
-    display: flex;
-    padding: 40px 250px 30px 260px;
-    gap: 50px;
-}
-
-
-.salchiTexto {
-    background-color: black;
-    font-family: 'Lora', serif;
-    color: red;
-    width: 300px;
-    text-align: center;
-    padding: 1px;
-}
-
-.tarjetaSalchi {
-    border-radius: 25px;
-    overflow: hidden;
-}
-
-.espaSalchi {
-    width: 300px;
-}
-
-/*----------------------------------------------NUESTRAS CREACIONES-------------------------*/
-
-/*----------------------------------------------COMICILIOS-------------------------*/
-/*----------------------------------------------COMICILIOS-------------------------*/
-/*----------------------------------------------COMICILIOS-------------------------*/
-/*----------------------------------------------COMICILIOS-------------------------*/
-.parrafoDomiciliosCompleto {
-    padding: 100px 100px 0px 100px;
-
-}
-.parrafoDomicilios {
-    font-family: 'Lora', serif;
-    color: black;
-}
-
-.imagenMoto {
-    border-radius: 30px;
-    border-color: red;
-    border-style: dotted;
-
-}
-
-.motoCaja {
-    padding: 10px 100px 0px 350px;
-}
-/*----------------------------------------------RESERVACIONES-------------------------*/
-/*----------------------------------------------RESERVACIONES-------------------------*/
-/*----------------------------------------------RESERVACIONES-------------------------*/
-/*----------------------------------------------RESERVACIONES-------------------------*/
-
-
-
-.parrafoReservaciones {
-
-    font-family: 'Lora', serif;
-    color: black;
-    display: flex;
-    padding: 80px 0px 0px 0px;
-}
-
-
-
-
-/*Gridllas de galeria de imagenes*/
-
-
-.galeriaImagenes {
-    display: grid;
-    width: 800px;
-    height: 500px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 1fr 1fr ;
-    grid-template-areas: 
-        "caja1 caja1  caja2 caja2"
-        "caja3 caja4  caja4 caja5"
-        "caja3 caja6  caja6 caja5";
-    gap: 5px;
-}
-
-
-.caja {
-    border: 3px solid black;
-}
-
-img {
-    max-width: 100%;
-}
-
-
-.caja1{
-    grid-area: caja1;
-    width: 100%;
-    text-align: center;
-}
-.caja2{
-    grid-area: caja2
-
-}
-.caja3{
-    grid-area: caja3
-
-}
-.caja4{
-    grid-area: caja4
-
-}
-.caja5{
-    grid-area: caja5
-
-}
-.caja6{
-    grid-area: caja6
-    
-}
-
-.cajaGaleria {
-    display: flex;
-    padding: 0px  340px 20px  340px;
-    gap: 10px;
-  
-}
-
-
-.formulario {
-    padding: 0px 0px 0px  0px;
-
-}
-
-.reservar {
-
-    font-family: 'Lora', serif;
-    color: black;
-}
-
-.borrar {
-
-    font-family: 'Lora', serif;
-    color: black;
-}
-
-.nohagoNada {
-
-    font-family: 'Lora', serif;
-    color: black;
-}
-
-
-
-/* TODO LO QUE TIENE QUE VER CON EL PIE DE PÁGINA*/
-/* TODO LO QUE TIENE QUE VER CON EL PIE DE PÁGINA*/
-/* TODO LO QUE TIENE QUE VER CON EL PIE DE PÁGINA*/
-/* TODO LO QUE TIENE QUE VER CON EL PIE DE PÁGINA*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* media media media media media media media media media*/
-/* media media media media media media media media media*/
-/* media media media media media media media media media*/
-/* media media media media media media media media media*/
-/* media media media media media media media media media*/
-/* media media media media media media media media media*/
-/* media media media media media media media media media*/
-
-
-
-body {
-
 @media screen and (max-width: 480px){
+    
     .cajaTituloHamburguesas{
         padding: 100px 10px 10px 10px;
     }
@@ -657,7 +468,6 @@ body {
         padding: 10px 80px 10px 90px;
     }
 
-
     .tituloNuestras {
         font-size: 20px;
     }
@@ -666,12 +476,10 @@ body {
         display: block;
     }
     
-
     .imagenCombo {
         width: 100%;
     }
 
-    
     .mobileCombos {
         padding: 10px 5px 20px 5px;
     }
@@ -706,9 +514,6 @@ body {
 
     }
 
-
-
-     
     .piedePaginaCompleto {
         display: flex;
         padding: 5px 5px 5px 60px;
@@ -738,21 +543,12 @@ body {
         font-size: 15px;
         font-weight: 600;
     }
-
-
-
-
-
-
-
-
     .administradores{
 
         overflow: hidden;
         border-radius: 20px;
         width: 300px;
     }
-
 
     .cajaCompletaAdmi {
     display: block;
@@ -766,18 +562,10 @@ body {
     .cajasTextoquienes {
         width: 300px;
     }
-
     .cajasMedia {
         padding: 20px 90px 20px 95px;
         align-content: center;
     }
-
-    
-
-
-
-
-
     .CajaCompletaSalchi {
      padding: 0px 0px 0px 0px;
      display: block;
@@ -791,13 +579,6 @@ body {
     .tarjetaSalchi{
         width: 300px;
     }
-
-
-
-
-
-
-
     .cajaTituloHot{
         padding: 50px 10px 10px 10px;
     }
@@ -816,25 +597,23 @@ body {
         width: 300px;
     }
         
-
     .cajaCompletaCreaciones {
         display: block;
         padding: 0px 0px 0px 0px;
         
     }
 
-
     .creacionesUnicaH {
         padding: 10px 80px 10px 90px;
-  }
+    }
 
 
-  .españolHamburguesa {
+    .españolHamburguesa {
     width: 300px;
-}
-.hamburguesaTexto {
+    }
+    .hamburguesaTexto {
     width: 300px;
-}
+    }
 
 .tarjetaHamburguesa {
     width: 300px;
@@ -847,5 +626,4 @@ body {
 .imagenMoto {
     width: 300px;
 }
-}
-}
+  }
