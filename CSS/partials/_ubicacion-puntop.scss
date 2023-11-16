@@ -1,0 +1,11 @@
+.cajaPfisico {
+    background-color: black;
+    display: flex;
+    padding: 40px 150px 40px 150px;
+    gap: 60px; 
+    border-radius: 1rem;
+
+    .ubicacionPuntoP {
+        width: 470px;
+    }      
+}

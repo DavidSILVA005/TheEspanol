@@ -1,0 +1,19 @@
+
+.todoRecomendadas {
+    padding: 1rem;
+
+    .nuestrasRecomendadasFondo {
+        background-color: #19191a;
+        padding: 0.5rem;
+        font-family: $fuentePrincipal;
+        color: rgb(255, 255, 255);
+        text-align: center ;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 8.0);
+        font-weight:bold;
+        border-radius: 10px;
+
+                     .tituloNuestras {
+                     font-size: 40px;
+                     }
+     }
+}

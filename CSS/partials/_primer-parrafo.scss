@@ -1,0 +1,17 @@
+.cuadroComparte {
+    padding:1rem;
+    background-color: black;
+
+    .primerParrafo {
+        background-color:rgba(255, 0, 0, 0.651);
+        font-family: $fuentePrincipal;
+        font-weight: 800;
+        color: white;
+        text-align: center;
+        font-size: 23px;
+        padding: 50px;
+        text-shadow: 3px 3px 10px rgba(0, 0, 0, 9.0);
+        border-radius: 10px;
+    }
+
+}

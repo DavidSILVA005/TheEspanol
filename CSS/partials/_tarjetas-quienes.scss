@@ -1,0 +1,23 @@
+.cajaCompletaAdmi{
+    display: flex;
+    padding: 20px 500px 20px  300px;
+    gap: 105px;
+
+    .administradores {
+        border-radius: 25px;
+        overflow: hidden;
+
+                    .textoAdmi    {
+                    width: 450px;
+                    }
+       }
+    .cajasTextoquienes {
+
+        background-color: black;
+        font-family: $fuentePrincipal;
+        color: white;
+        width: 450px;
+        text-align: center;
+        padding: 1px;
+       }
+}

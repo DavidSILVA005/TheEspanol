@@ -1,0 +1,35 @@
+.cajaTituloSalchi {
+    padding: 200px 120px 10px 120px;
+
+    .salchipapasTitulo {
+        font-family: $fuentePrincipal;
+        color: white;
+        background-color: #522B47;
+        text-align: center;
+        padding: 8px 8px 8px 8px;
+        border-radius: 15px;
+    }
+}
+
+.CajaCompletaSalchi {
+    display: flex;
+    padding: 40px 250px 30px 260px;
+    gap: 50px;
+
+    .tarjetaSalchi {
+        border-radius: 25px;
+        overflow: hidden;
+        
+            .espaSalchi {
+            width: 300px;
+    }
+    .salchiTexto {
+        background-color: black;
+        font-family: $fuentePrincipal;
+        color: red;
+        width: 300px;
+        text-align: center;
+        padding: 1px;
+    }
+}
+}

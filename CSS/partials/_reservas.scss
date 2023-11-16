@@ -1,0 +1,28 @@
+.parrafoReservaciones {
+    font-family: $fuentePrincipal;
+    color: black;
+    display: flex;
+    padding: 80px 0px 0px 0px;
+
+    .formulario {
+        padding: 0px 0px 0px  0px;
+    
+        .reservar {
+
+            font-family: 'Lora', serif;
+            color: black;
+        }
+
+        .borrar {
+
+            font-family: 'Lora', serif;
+            color: black;
+        }
+        
+        .nohagoNada {
+        
+            font-family: 'Lora', serif;
+            color: black;
+        }
+    }
+}

@@ -1,0 +1,78 @@
+.losCombos {
+    display: flex;
+    padding: 40px 0px 10px 0px;
+    gap: 20px; 
+
+    .comboUnoCombinado {
+        background-color: black;
+        overflow: hidden;
+        border-radius: 30px;
+                    
+                    .textoComboUno  {
+                    font-family: $fuentePrincipal;
+                    color: red;
+                    text-align: center;
+                    }
+     }
+
+     .comboDosCombinado {
+        background-color: black;
+        overflow: hidden;
+        border-radius: 30px;
+
+                    .textoComboDos  {
+                    font-family: $fuentePrincipal;
+                    color: red;
+                    text-align: center;
+                    }
+    }
+
+    .comboTresCombinado {
+        background-color: black;
+        overflow: hidden;
+        border-radius: 30px;
+
+                    .textoComboTres  {
+                    font-family: $fuentePrincipal;
+                    color: red;
+                    text-align: center;
+                    }
+    }
+    
+    .comboCuatroCombinado {
+        background-color: black;
+        overflow: hidden;
+        border-radius: 30px;
+
+                     .textoComboCuatro  {
+                     font-family: $fuentePrincipal;
+                     color: red;
+                     text-align: center;
+                     }
+    }
+
+    .comboCincoCombinado {
+
+        background-color: black;
+        overflow: hidden;
+        border-radius: 30px;
+        
+                    .textoComboCinco  {
+                    font-family: $fuentePrincipal;
+                    color: red;
+                    text-align: center;
+                    }
+    }
+
+    .infoCombos {
+        padding-left: 15px;
+    }
+
+    .imagenCombo{
+        width: 350px;
+    }
+
+    .decoracionPN {
+        color: white;
+    }
+}

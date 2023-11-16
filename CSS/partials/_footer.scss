@@ -1,0 +1,47 @@
+footer {
+
+    .cajaTpiePagina{
+        padding: 50px 0px 0px 0px;
+    
+        .tituloPiedePagina {
+            background-color: black;
+            font-family:$fuentePrincipal;
+            color: whitesmoke;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 8.0);
+        }
+    }
+
+    .piedePaginaCompleto {
+        background-color: white;
+        display: flex;
+        padding: 0px 150px 0px 150px;
+        gap: 240px;
+    
+        .instagramLogo {
+            width: 53px;
+            text-decoration: none;
+        }
+    
+        .facebookLogo {
+            width: 50px;
+        }
+    
+        .tiktokLogo{
+            width: 50px;
+        }
+    
+        .whatsappLogo{
+            width: 50px;
+        }
+    
+    }
+
+    .tercerParrafo {
+        background-color: #C0C0C0 ;
+        font-family: $fuentePrincipal;
+        font-weight: 600 ;
+        color: black;
+        text-align: center;
+    }
+}

@@ -7,37 +7,36 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: e6ebe0;
-}
-body .navbar {
+.header .navbar {
   font-family: "Lora", serif;
   font-weight: 100;
 }
-body .navbar .nav-link {
+.header .navbar .nav-link {
   color: red;
 }
-body .navbar ul li a {
+.header .navbar ul li a {
   color: red;
   font-family: "Lora", serif;
   text-shadow: 3px 3px 10px rgb(0, 0, 0);
 }
-body .secuenciaPrincipal {
+
+.secuenciaPrincipal {
   background-color: black;
   padding: 100px 100px 10px 100px;
 }
-body .secuenciaPrincipal .buttonColor {
+.secuenciaPrincipal .buttonColor {
   color: white;
 }
-body .secuenciaPrincipal .TextoSlide {
+.secuenciaPrincipal .TextoSlide {
   color: antiquewhite;
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
-body .cuadroComparte {
+
+.cuadroComparte {
   padding: 1rem;
   background-color: black;
 }
-body .cuadroComparte .primerParrafo {
+.cuadroComparte .primerParrafo {
   background-color: rgba(255, 0, 0, 0.651);
   font-family: "Lora", serif;
   font-weight: 800;
@@ -48,10 +47,11 @@ body .cuadroComparte .primerParrafo {
   text-shadow: 3px 3px 10px rgb(0, 0, 0);
   border-radius: 10px;
 }
-body .todoRecomendadas {
+
+.todoRecomendadas {
   padding: 1rem;
 }
-body .todoRecomendadas .nuestrasRecomendadasFondo {
+.todoRecomendadas .nuestrasRecomendadasFondo {
   background-color: #19191a;
   padding: 0.5rem;
   font-family: "Lora", serif;
@@ -61,74 +61,76 @@ body .todoRecomendadas .nuestrasRecomendadasFondo {
   font-weight: bold;
   border-radius: 10px;
 }
-body .todoRecomendadas .nuestrasRecomendadasFondo .tituloNuestras {
+.todoRecomendadas .nuestrasRecomendadasFondo .tituloNuestras {
   font-size: 40px;
 }
-body .losCombos {
+
+.losCombos {
   display: flex;
   padding: 40px 0px 10px 0px;
   gap: 20px;
 }
-body .losCombos .comboUnoCombinado {
+.losCombos .comboUnoCombinado {
   background-color: black;
   overflow: hidden;
   border-radius: 30px;
 }
-body .losCombos .comboUnoCombinado .textoComboUno {
+.losCombos .comboUnoCombinado .textoComboUno {
   font-family: "Lora", serif;
   color: red;
   text-align: center;
 }
-body .losCombos .comboDosCombinado {
+.losCombos .comboDosCombinado {
   background-color: black;
   overflow: hidden;
   border-radius: 30px;
 }
-body .losCombos .comboDosCombinado .textoComboDos {
+.losCombos .comboDosCombinado .textoComboDos {
   font-family: "Lora", serif;
   color: red;
   text-align: center;
 }
-body .losCombos .comboTresCombinado {
+.losCombos .comboTresCombinado {
   background-color: black;
   overflow: hidden;
   border-radius: 30px;
 }
-body .losCombos .comboTresCombinado .textoComboTres {
+.losCombos .comboTresCombinado .textoComboTres {
   font-family: "Lora", serif;
   color: red;
   text-align: center;
 }
-body .losCombos .comboCuatroCombinado {
+.losCombos .comboCuatroCombinado {
   background-color: black;
   overflow: hidden;
   border-radius: 30px;
 }
-body .losCombos .comboCuatroCombinado .textoComboCuatro {
+.losCombos .comboCuatroCombinado .textoComboCuatro {
   font-family: "Lora", serif;
   color: red;
   text-align: center;
 }
-body .losCombos .comboCincoCombinado {
+.losCombos .comboCincoCombinado {
   background-color: black;
   overflow: hidden;
   border-radius: 30px;
 }
-body .losCombos .comboCincoCombinado .textoComboCinco {
+.losCombos .comboCincoCombinado .textoComboCinco {
   font-family: "Lora", serif;
   color: red;
   text-align: center;
 }
-body .losCombos .infoCombos {
+.losCombos .infoCombos {
   padding-left: 15px;
 }
-body .losCombos .imagenCombo {
+.losCombos .imagenCombo {
   width: 350px;
 }
-body .losCombos .decoracionPN {
+.losCombos .decoracionPN {
   color: white;
 }
-body .segundoParrafo {
+
+.segundoParrafo {
   background-color: #C0C0C0;
   font-family: "Lora", serif;
   font-size: 20px;
@@ -136,11 +138,12 @@ body .segundoParrafo {
   text-align: center;
   border-radius: 10px;
 }
-body .videoR {
-  padding: 50px 400px 50px 400px;
+
+.videoR {
+  padding: 50px 400px 50px 500px;
   display: flex;
 }
-body .videoR .cajaVideoY {
+.videoR .cajaVideoY {
   width: 500px;
   background-color: black;
   padding: 30px;
@@ -148,41 +151,43 @@ body .videoR .cajaVideoY {
   justify-content: center;
   border-radius: 10px;
 }
-body .videoR .cajaVideoY .videoBox {
+.videoR .cajaVideoY .videoBox {
   border-radius: 10px;
-  width: 400px;
+  width: 500px;
 }
-body .cajaPfisico {
+
+.cajaPfisico {
   background-color: black;
   display: flex;
   padding: 40px 150px 40px 150px;
   gap: 60px;
   border-radius: 1rem;
 }
-body .cajaPfisico .ubicacionPuntoP {
+.cajaPfisico .ubicacionPuntoP {
   width: 470px;
 }
 
-body .cajaQuienesSomos {
+.cajaQuienesSomos {
   padding: 100px 0px 0px 0px;
 }
-body .cajaQuienesSomos .parrafoQuienesSomos {
+.cajaQuienesSomos .parrafoQuienesSomos {
   font-family: "Lora", serif;
   color: black;
 }
-body .cajaCompletaAdmi {
+
+.cajaCompletaAdmi {
   display: flex;
   padding: 20px 500px 20px 300px;
   gap: 105px;
 }
-body .cajaCompletaAdmi .administradores {
+.cajaCompletaAdmi .administradores {
   border-radius: 25px;
   overflow: hidden;
 }
-body .cajaCompletaAdmi .administradores .textoAdmi {
+.cajaCompletaAdmi .administradores .textoAdmi {
   width: 450px;
 }
-body .cajaCompletaAdmi .cajasTextoquienes {
+.cajaCompletaAdmi .cajasTextoquienes {
   background-color: black;
   font-family: "Lora", serif;
   color: white;
@@ -191,10 +196,10 @@ body .cajaCompletaAdmi .cajasTextoquienes {
   padding: 1px;
 }
 
-body .cajaTituloHamburguesas {
+.cajaTituloHamburguesas {
   padding: 90px 120px 10px 120px;
 }
-body .cajaTituloHamburguesas .hamburguesasTitulo {
+.cajaTituloHamburguesas .hamburguesasTitulo {
   font-family: "Lora", serif;
   color: white;
   background-color: #522B47;
@@ -202,22 +207,23 @@ body .cajaTituloHamburguesas .hamburguesasTitulo {
   padding: 8px 8px 8px 8px;
   border-radius: 15px;
 }
-body .cajaCompletaCreaciones {
+
+.cajaCompletaCreaciones {
   display: flex;
   padding: 40px 300px 20px 275px;
   gap: 70px;
 }
-body .cajaCompletaCreaciones .creacionesUnicaH {
+.cajaCompletaCreaciones .creacionesUnicaH {
   padding: 40px 250px 20px 250px;
 }
-body .cajaCompletaCreaciones .tarjetaHamburguesa {
+.cajaCompletaCreaciones .tarjetaHamburguesa {
   border-radius: 25px;
   overflow: hidden;
 }
-body .cajaCompletaCreaciones .tarjetaHamburguesa .españolaHamburguesa {
+.cajaCompletaCreaciones .tarjetaHamburguesa .españolaHamburguesa {
   width: 450px;
 }
-body .cajaCompletaCreaciones .tarjetaHamburguesa .hamburguesaTexto {
+.cajaCompletaCreaciones .tarjetaHamburguesa .hamburguesaTexto {
   background-color: black;
   font-family: "Lora", serif;
   color: red;
@@ -225,10 +231,11 @@ body .cajaCompletaCreaciones .tarjetaHamburguesa .hamburguesaTexto {
   text-align: center;
   padding: 1px;
 }
-body .cajaTituloHot {
+
+.cajaTituloHot {
   padding: 200px 120px 10px 120px;
 }
-body .cajaTituloHot .hotDogTitulo {
+.cajaTituloHot .hotDogTitulo {
   font-family: "Lora", serif;
   color: white;
   background-color: #522B47;
@@ -236,19 +243,20 @@ body .cajaTituloHot .hotDogTitulo {
   padding: 8px 8px 8px 8px;
   border-radius: 15px;
 }
-body .cajaCompletaHot {
+
+.cajaCompletaHot {
   display: flex;
   padding: 40px 250px 30px 260px;
   gap: 50px;
 }
-body .cajaCompletaHot .tarjetaPerro {
+.cajaCompletaHot .tarjetaPerro {
   border-radius: 25px;
   overflow: hidden;
 }
-body .cajaCompletaHot .tarjetaPerro .españolaPerro {
+.cajaCompletaHot .tarjetaPerro .españolaPerro {
   width: 300px;
 }
-body .cajaCompletaHot .tarjetaPerro .hotText {
+.cajaCompletaHot .tarjetaPerro .hotText {
   background-color: black;
   font-family: "Lora", serif;
   color: red;
@@ -256,10 +264,11 @@ body .cajaCompletaHot .tarjetaPerro .hotText {
   text-align: center;
   padding: 1px;
 }
-body .cajaTituloSalchi {
+
+.cajaTituloSalchi {
   padding: 200px 120px 10px 120px;
 }
-body .cajaTituloSalchi .salchipapasTitulo {
+.cajaTituloSalchi .salchipapasTitulo {
   font-family: "Lora", serif;
   color: white;
   background-color: #522B47;
@@ -267,19 +276,20 @@ body .cajaTituloSalchi .salchipapasTitulo {
   padding: 8px 8px 8px 8px;
   border-radius: 15px;
 }
-body .CajaCompletaSalchi {
+
+.CajaCompletaSalchi {
   display: flex;
   padding: 40px 250px 30px 260px;
   gap: 50px;
 }
-body .CajaCompletaSalchi .tarjetaSalchi {
+.CajaCompletaSalchi .tarjetaSalchi {
   border-radius: 25px;
   overflow: hidden;
 }
-body .CajaCompletaSalchi .tarjetaSalchi .espaSalchi {
+.CajaCompletaSalchi .tarjetaSalchi .espaSalchi {
   width: 300px;
 }
-body .CajaCompletaSalchi .tarjetaSalchi .salchiTexto {
+.CajaCompletaSalchi .tarjetaSalchi .salchiTexto {
   background-color: black;
   font-family: "Lora", serif;
   color: red;
@@ -287,46 +297,48 @@ body .CajaCompletaSalchi .tarjetaSalchi .salchiTexto {
   text-align: center;
   padding: 1px;
 }
-body .parrafoCreaciones {
+
+.parrafoCreaciones {
   padding: 10px 0px 0px 0px;
   font-family: "Lora", serif;
   color: black;
 }
 
-body .parrafoDomiciliosCompleto {
+.parrafoDomiciliosCompleto {
   padding: 100px 100px 0px 100px;
 }
-body .parrafoDomiciliosCompleto .parrafoDomicilios {
+.parrafoDomiciliosCompleto .parrafoDomicilios {
   font-family: "Lora", serif;
   color: black;
 }
-body .motoCaja {
+
+.motoCaja {
   padding: 10px 100px 0px 350px;
 }
-body .motoCaja .imagenMoto {
+.motoCaja .imagenMoto {
   border-radius: 30px;
   border-color: red;
   border-style: dotted;
 }
 
-body .parrafoReservaciones {
+.parrafoReservaciones {
   font-family: "Lora", serif;
   color: black;
   display: flex;
   padding: 80px 0px 0px 0px;
 }
-body .parrafoReservaciones .formulario {
+.parrafoReservaciones .formulario {
   padding: 0px 0px 0px 0px;
 }
-body .parrafoReservaciones .formulario .reservar {
+.parrafoReservaciones .formulario .reservar {
   font-family: "Lora", serif;
   color: black;
 }
-body .parrafoReservaciones .formulario .borrar {
+.parrafoReservaciones .formulario .borrar {
   font-family: "Lora", serif;
   color: black;
 }
-body .parrafoReservaciones .formulario .nohagoNada {
+.parrafoReservaciones .formulario .nohagoNada {
   font-family: "Lora", serif;
   color: black;
 }

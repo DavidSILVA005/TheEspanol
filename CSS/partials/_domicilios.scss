@@ -1,0 +1,16 @@
+.parrafoDomiciliosCompleto {
+    padding: 100px 100px 0px 100px;
+
+    .parrafoDomicilios {
+        font-family: $fuentePrincipal;
+        color: black;
+    }
+}
+.motoCaja {
+    padding: 10px 100px 0px 350px;
+    .imagenMoto {
+        border-radius: 30px;
+        border-color: red;
+        border-style: dotted;
+    }
+}

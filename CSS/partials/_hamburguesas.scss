@@ -1,0 +1,38 @@
+.cajaTituloHamburguesas {
+    padding: 90px 120px 10px 120px;
+
+    .hamburguesasTitulo{
+        font-family: $fuentePrincipal;
+        color: white;
+        background-color: #522B47;
+        text-align: center;
+        padding: 8px 8px 8px 8px;
+        border-radius: 15px;
+    }
+}
+
+.cajaCompletaCreaciones {
+    display: flex;
+    padding: 40px 300px 20px 275px;
+    gap: 70px;
+
+    .creacionesUnicaH {
+        padding: 40px 250px 20px 250px;
+    }
+
+    .tarjetaHamburguesa {
+        border-radius: 25px;
+        overflow: hidden;
+        .españolaHamburguesa {
+            width: 450px;
+         }
+         .hamburguesaTexto {
+            background-color: black;
+            font-family: $fuentePrincipal;
+            color: red;
+            width: 450px;
+            text-align: center;
+            padding: 1px;
+        }
+     }
+}
